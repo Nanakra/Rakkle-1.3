@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <RS_InstallWoodenTail.label>가짜 나무 하단꼬리 이식</RS_InstallWoodenTail.label>
+    <RS_RemoveWoodenTail.label>가짜 나무 하단꼬리 제거</RS_RemoveWoodenTail.label>
+
+    <RS_InstallBionicTail.label>생체공학 뱀 하단꼬리 이식</RS_InstallBionicTail.label>
+    <RS_RemoveBionicTail.label>생체공학 뱀 하단꼬리 제거</RS_RemoveBionicTail.label>
+
+    <RS_InstallBionicBellyscale.label>생체공학 상단복판 이식</RS_InstallBionicBellyscale.label>
+    <RS_RemoveBionicBellyscale.label>생체공학 상단복판 제거</RS_RemoveBionicBellyscale.label>
+
+    <RS_InstallRakkleThermostat.label>레이클 체온조절단말 이식</RS_InstallRakkleThermostat.label>
+    <RS_InstallRakkleThermostat.description>레이클 체온조절단말을 이식합니다.</RS_InstallRakkleThermostat.description>
+    <RS_InstallRakkleThermostat.jobString>레이클 체온조절단말을 이식하는 중.</RS_InstallRakkleThermostat.jobString>
+    <RS_RemoveRakkleThermostat.label>레이클 체온조절단말 제거</RS_RemoveRakkleThermostat.label>
+    <RS_RemoveRakkleThermostat.description>레이클 체온조절단말을 제거합니다.</RS_RemoveRakkleThermostat.description>
+    <RS_RemoveRakkleThermostat.jobString>레이클 체온조절단말을 제거하는 중.</RS_RemoveRakkleThermostat.jobString>
+
+    <RS_InstallObedienceTerminal.label>레이클 강제복종단말 이식</RS_InstallObedienceTerminal.label>
+    <RS_InstallObedienceTerminal.description>레이클 강제복종단말을 이식합니다.</RS_InstallObedienceTerminal.description>
+    <RS_InstallObedienceTerminal.jobString>레이클 강제복종단말을 이식하는 중.</RS_InstallObedienceTerminal.jobString>
+    <RS_RemoveObedienceTerminal.label>레이클 강제복종단말 제거</RS_RemoveObedienceTerminal.label>
+    <RS_RemoveObedienceTerminal.description>레이클 강제복종단말을 제거합니다.</RS_RemoveObedienceTerminal.description>
+    <RS_RemoveObedienceTerminal.jobString>레이클 강제복종단말을 제거하는 중.</RS_RemoveObedienceTerminal.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+		<defName>RS_InstallWoodenTail</defName>
+		<label>Install wooden tail</label>
+		<description>가짜 나무 꼬리를 이식합니다.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden tail.</jobString>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<appliedOnFixedBodyParts>
+			<li>RS_LowerTail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>RS_WoodenTail</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RS_RemoveWoodenTail</defName>
+		<label>remove wooden tail</label>
+		<description>가짜 나무 꼬리를 제거합니다.</description>
+		<jobString>Removing wooden tail.</jobString>
+		<removesHediff>RS_WoodenTail</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>RS_InstallBionicTail</defName>
+		<label>implant bionic tail</label>
+		<description>생체공학 레이클 꼬리를 이식합니다.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic tail.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RS_BionicTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>RS_BionicTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>RS_LowerTail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>RS_BionicTail</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RS_RemoveBionicTail</defName>
+		<label>remove bionic tail</label>
+		<description>생체공학 꼬리를 제거합니다.</description>
+		<descriptionHyperlinks><ThingDef>RS_BionicTail</ThingDef></descriptionHyperlinks>
+		<jobString>Removing bionic tail.</jobString>
+		<removesHediff>RS_BionicTail</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>RS_InstallBionicBellyscale</defName>
+		<label>implant bionic belly scale</label>
+		<description>생체공학 레이클 복판을 이식합니다.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic belly scale.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RS_BionicBellyscale</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>RS_BionicBellyscale</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Upper_BellyScale</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>RS_BionicBellyscale</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RS_RemoveBionicBellyscale</defName>
+		<label>remove bionic bellyscale</label>
+		<description>생체공학 복판을 제거합니다.</description>
+		<jobString>Removing bionic bellyscale.</jobString>
+		<removesHediff>RS_BionicBellyscale</removesHediff>
+	</RecipeDef>
+
+</Defs>

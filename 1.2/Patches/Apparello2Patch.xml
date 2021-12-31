@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Apparello2 Patch for Rakkle</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Rakkle"]/alienRace/raceRestriction/whiteApparelList</xpath>
+                    <value>
+                        <li>Apparello_GSkin</li>
+                        <li>Apparello_XcomOne</li>
+                        <li>Apparello_Standissue</li>
+                        <li>Apparello_SFSurge</li>
+                        <li>Apparello_Sheet</li>
+                        <li>Apparello_Gspot</li>
+                        <li>Apparello_Gshell</li>
+                        <li>Apparello_MedicalApron</li>
+                        <li>Apparello_Smithaprontosaurus</li>
+                        <li>Apparello_Cookaprontosaurus</li>
+                        <li>Apparello_Trypophobiaa</li>
+                        <li>Apparello_PonPon</li>
+                        <li>Apparello_Longlylonglong</li>
+                        <li>Apparello_Skull</li>
+                        <li>Apparello_Preston</li>
+                        <li>Apparello_Brocade</li>
+                        <li>Apparello_Urbulence</li>
+                        <li>Apparello_Orkpad</li>
+                        <li>Apparello_Urpad</li>
+                        <li>Apparello_Ammobelt</li>
+                        <li>Apparello_Urbskin</li>
+                        <li>Apparello_Suspender</li>
+                        <li>Apparello_Armorpants</li>
+                        <li>Apparello_Spacemarinepants</li>
+                        <li>Apparello_Spacerpants</li>
+                        <li>Apparello_Chapel</li>
+                        <li>Apparello_TribalPants</li>
+                        <li>Apparello_Holdem</li>
+                        <li>Apparello_Scrapants</li>
+                        <li>Apparello_Pollypocket</li>
+                        <li>Apparello_Jeans</li>
+                        <li>Apparello_Jodhpurs</li>
+                        <li>Apparello_Skirtwirly</li>
+                        <li>Apparello_Lederhose</li>
+                        <li>Apparello_square</li>
+                        <li>Apparello_Syndicatellorare</li>
+                        <li>Apparello_Scytherframe</li>
+                        <li>Apparello_HiveArmor</li>
+                        <li>Apparello_Steamhull</li>
+                        <li>Apparello_GShellII</li>
+                        <li>Apparello_Syndicatetello</li>
+                        <li>Apparello_Medicade</li>
+                        <li>Apparello_Mogo</li>
+                        <li>Apparello_Tunic</li>
+                        <li>Apparello_Tribalpad</li>
+                        <li>Apparello_Tribalshield</li>
+                        <li>Apparello_Doom</li>
+                        <li>Apparello_Quotee</li>
+                        <li>Apparello_Zorro</li>
+                        <li>Apparello_Footy</li>
+                        <li>Apparello_Meffect</li>
+                        <li>Apparello_Meffectwo</li>
+                        <li>Apparello_Kurt</li>
+                        <li>Apparello_Kurtlite</li>
+                        <li>Apparello_Rockman</li>
+                        <li>Apparello_Raideroos</li>
+                        <li>Apparello_Yi</li>
+                        <li>Apparello_Raz</li>
+                        <li>Apparello_Goggles</li>
+                        <li>Apparello_Visoor</li>
+                        <li>Apparello_Shadess</li>
+                        <li>Apparello_Piloggle</li>
+                        <li>Apparello_Brimsk</li>
+                        <li>Apparello_Mojo</li>
+                        <li>Apparello_Mojotwo</li>
+                        <li>Apparello_MojoFeather</li>
+                        <li>Apparello_Wendywelder</li>
+                        <li>Apparello_Hardhat</li>
+                        <li>Apparello_Chefhat</li>
+                        <li>Apparello_Chefhatplus</li>
+                        <li>Apparello_Cyninja</li>
+                        <li>Apparello_Medihelmet</li>
+                        <li>Apparello_Proto</li>
+                        <li>Apparello_ProtoFin</li>
+                        <li>Apparello_Commissar</li>
+                        <li>Apparello_Gassy</li>
+                        <li>Apparello_Cybissar</li>
+                        <li>Apparello_Medband</li>
+                        <li>Apparello_Docteur</li>
+                        <li>Apparello_Plainhat</li>
+                        <li>Apparello_Furhat</li>
+                        <li>Apparello_Bandit</li>
+                        <li>Apparello_Cardshark</li>
+                        <li>Apparello_TriMeCornMatey</li>
+                        <li>Apparello_Sandtrader</li>
+                        <li>Apparello_Tradecone</li>
+                        <li>Apparello_Fedora</li>
+                        <li>Apparello_Headset</li>
+                        <li>Apparello_Beret</li>
+                        <li>Apparello_Tophat</li>
+                        <li>Apparello_Bandal</li>
+                        <li>Apparello_Vandal</li>
+                        <li>Apparello_Lecap</li>
+                        <li>Apparello_Hoood</li>
+                        <li>Apparello_Sombrero</li>
+                        <li>Apparello_Moron</li>
+                    </value>
+                </match>
+    </Operation>
+
+
+
+
+</Patch>

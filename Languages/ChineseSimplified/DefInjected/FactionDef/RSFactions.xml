@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 플레이어 -->
+  <RS_PlayerFaction.label>新的开始</RS_PlayerFaction.label>
+  <RS_PlayerFaction.description>是您的标签定居地。</RS_PlayerFaction.description>
+  <RS_PlayerFaction.pawnsPlural>美杜莎</RS_PlayerFaction.pawnsPlural>
+  <!-- 요람 -->
+  <Cradle.label>美杜莎工厂</Cradle.label>
+  <Cradle.description>这里是培养卖奴隶的美杜莎人工厂。虽然有固定的形态，但其目的与其他定居地完全不同。也在做回收外部标签的工作。</Cradle.description>
+  <Cradle.pawnsPlural>美杜莎</Cradle.pawnsPlural>
+  <Cradle.leaderTitle>老板</Cradle.leaderTitle>
+  <FRU.label>自由美杜莎流浪者联盟</FRU.label>
+  <FRU.description>自由联盟的定居地。聚集了各种各样的Lake</FRU.description>
+  <FRU.pawnsPlural>美杜莎</FRU.pawnsPlural>
+  <FRU.leaderTitle>领导者</FRU.leaderTitle>
+</LanguageData>

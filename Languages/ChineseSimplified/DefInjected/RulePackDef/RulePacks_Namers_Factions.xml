@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cradle Faction / Settlement namers -->
+
+  <NamerFactionCradle.rulePack.rulesStrings.0>r_name->The [ColorBadass] rakkle incubating plant</NamerFactionCradle.rulePack.rulesStrings.0>
+  <NamerFactionCradle.rulePack.rulesStrings.1>r_name->[NamePerson]'s rakkle incubating plant</NamerFactionCradle.rulePack.rulesStrings.1>
+
+  <NamerSettlementCradle.rulePack.rulesStrings.0>r_name->[townname_wordgen]</NamerSettlementCradle.rulePack.rulesStrings.0>
+  <NamerSettlementCradle.rulePack.rulesStrings.1>townname_wordgen->[SylE][CRDStownend]</NamerSettlementCradle.rulePack.rulesStrings.1>
+  <NamerSettlementCradle.rulePack.rulesStrings.2>CRDStownend->topia</NamerSettlementCradle.rulePack.rulesStrings.2>
+  <NamerSettlementCradle.rulePack.rulesStrings.3>CRDStownend->lantis</NamerSettlementCradle.rulePack.rulesStrings.3>
+  <NamerSettlementCradle.rulePack.rulesStrings.4>CRDStownend->grila</NamerSettlementCradle.rulePack.rulesStrings.4>
+  <NamerSettlementCradle.rulePack.rulesStrings.5>CRDStownend->radise</NamerSettlementCradle.rulePack.rulesStrings.5>
+  <NamerSettlementCradle.rulePack.rulesStrings.6>CRDStownend->'s Eden</NamerSettlementCradle.rulePack.rulesStrings.6>
+  <NamerSettlementCradle.rulePack.rulesStrings.7>CRDStownend->dorado</NamerSettlementCradle.rulePack.rulesStrings.7>
+
+  <NamerFactionFRU.rulePack.rulesStrings.0>r_name(p=3)->[nearnameinitial]</NamerFactionFRU.rulePack.rulesStrings.0>
+  <NamerFactionFRU.rulePack.rulesStrings.1>r_name->[nearnameinitial] [political_union_outlander]</NamerFactionFRU.rulePack.rulesStrings.1>
+  <NamerFactionFRU.rulePack.rulesStrings.2>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</NamerFactionFRU.rulePack.rulesStrings.2>
+  <NamerFactionFRU.rulePack.rulesStrings.3>r_name->[political_union_outlander] of [nearnameinitial]</NamerFactionFRU.rulePack.rulesStrings.3>
+  <NamerFactionFRU.rulePack.rulesStrings.4>r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]</NamerFactionFRU.rulePack.rulesStrings.4>
+  <NamerFactionFRU.rulePack.rulesStrings.5>nearnameinitial(p=3)->[PlaceOutlander]</NamerFactionFRU.rulePack.rulesStrings.5>
+  <NamerFactionFRU.rulePack.rulesStrings.6>nearnameinitial->[Direction] [PlaceOutlander]</NamerFactionFRU.rulePack.rulesStrings.6>
+
+  <NamerSettlementFRU.rulePack.rulesStrings.0>r_name(p=12)->[townname_wordgen]</NamerSettlementFRU.rulePack.rulesStrings.0>
+  <NamerSettlementFRU.rulePack.rulesStrings.1>r_name(p=4)->[townname_combo]</NamerSettlementFRU.rulePack.rulesStrings.1>
+  <NamerSettlementFRU.rulePack.rulesStrings.2>topicalnoun->[Vegetable]</NamerSettlementFRU.rulePack.rulesStrings.2>
+  <NamerSettlementFRU.rulePack.rulesStrings.3>topicalnoun->[Game]</NamerSettlementFRU.rulePack.rulesStrings.3>
+  <NamerSettlementFRU.rulePack.rulesStrings.4>topicalnoun->[BodyPart]</NamerSettlementFRU.rulePack.rulesStrings.4>
+  <NamerSettlementFRU.rulePack.rulesStrings.5>townname_combo->[topicalnoun] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.5>
+  <NamerSettlementFRU.rulePack.rulesStrings.6>townname_combo->[topicalnoun]'s [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.6>
+  <NamerSettlementFRU.rulePack.rulesStrings.7>townname_combo(p=2)->[concept_positive]'s [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.7>
+  <NamerSettlementFRU.rulePack.rulesStrings.8>townname_combo(p=2)->[concept_positive] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.8>
+  <NamerSettlementFRU.rulePack.rulesStrings.9>townname_combo(p=3)->[Character]'s [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.9>
+  <NamerSettlementFRU.rulePack.rulesStrings.10>townname_wordgen(p=2)->[SylE] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.10>
+  <NamerSettlementFRU.rulePack.rulesStrings.11>townname_wordgen(p=2)->[SylE][SylE] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.11>
+  <NamerSettlementFRU.rulePack.rulesStrings.12>townname_wordgen->[TerrainFeature] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.12>
+  <NamerSettlementFRU.rulePack.rulesStrings.13>townname_wordgen->[topicalnoun] [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.13>
+  <NamerSettlementFRU.rulePack.rulesStrings.14>FRUtownend->coil</NamerSettlementFRU.rulePack.rulesStrings.14>
+  <NamerSettlementFRU.rulePack.rulesStrings.15>FRUtownend->fangs</NamerSettlementFRU.rulePack.rulesStrings.15>
+  <NamerSettlementFRU.rulePack.rulesStrings.16>FRUtownend->nest</NamerSettlementFRU.rulePack.rulesStrings.16>
+  <NamerSettlementFRU.rulePack.rulesStrings.17>FRUtownend->shelter</NamerSettlementFRU.rulePack.rulesStrings.17>
+  <NamerSettlementFRU.rulePack.rulesStrings.18>FRUtownend->scale</NamerSettlementFRU.rulePack.rulesStrings.18>
+  <NamerSettlementFRU.rulePack.rulesStrings.19>FRUtownend->town</NamerSettlementFRU.rulePack.rulesStrings.19>
+  <NamerSettlementFRU.rulePack.rulesStrings.20>FRUtownend->shield</NamerSettlementFRU.rulePack.rulesStrings.20>
+
+
+</LanguageData>

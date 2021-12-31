@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="RS_PlayerFactionBase">
+    <settlementTexturePath>Icon/RS_Icon</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.35, 0.67, 0.84)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+
+  <!-- 플레이어 -->
+  <FactionDef ParentName="RS_PlayerFactionBase">
+    <defName>RS_PlayerFaction</defName>
+    <label>New Beginning</label>
+    <description>당신의 레이클 정착지입니다.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>RS_Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>	
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+				<commonality>0.95</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+				<commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Icon/RS_Icon</factionIconPath>
+    <settlementTexturePath>Icon/RS_HomeIcon</settlementTexturePath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+			<li>Rural</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+
+  <!-- 요람 -->
+  <FactionDef Name="CradleFactionBase" Abstract="True">
+    <pawnSingular>Rakkle</pawnSingular>
+    <pawnsPlural>Rakkles</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>boss</leaderTitle>
+    <factionIconPath>Icon/CRD_Icon</factionIconPath>
+    <colorSpectrum>
+      <li>(0.78, 0.18, 0.14)</li>
+      <li>(0.78, 0.18, 0.14)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <factionNameMaker>NamerFactionCradle</factionNameMaker>
+    <settlementNameMaker>NamerSettlementCradle</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDGoods_Adult</li>
+          <li>CRDAttacker</li>
+          <li>CRDCaptured</li>
+          <li>CRDElite</li>
+          <li>CradleLeader</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>RSHair</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>-10~65</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <CRD_Goods>2</CRD_Goods>
+          <CRD_Goods>10</CRD_Goods>
+          <CRD_Kidnapper>10</CRD_Kidnapper>
+          <CRD_Gunner>10</CRD_Gunner>
+          <CRD_Slasher>10</CRD_Slasher>
+          <CRD_Sapper>2</CRD_Sapper>
+          <CRD_HeavyGunner>5</CRD_HeavyGunner>
+          <CRD_EliteSlasher>3</CRD_EliteSlasher>
+          <CRD_EliteGunner>7</CRD_EliteGunner>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <CRD_Goods>10</CRD_Goods>
+          <CRD_Slasher>8</CRD_Slasher>
+          <CRD_EliteSlasher>5</CRD_EliteSlasher>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <CRD_Kidnapper>10</CRD_Kidnapper>
+          <CRD_Gunner>10</CRD_Gunner>
+          <CRD_Sapper>2</CRD_Sapper>
+          <CRD_EliteGunner>6</CRD_EliteGunner>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <CRD_ShieldSlave>10</CRD_ShieldSlave>
+          <CRD_Sapper>6</CRD_Sapper>
+          <CRD_Gunner>3</CRD_Gunner>
+          <CRD_HeavyGunner>5</CRD_HeavyGunner>
+          <CRD_EliteGunner>2</CRD_EliteGunner>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ShieldSlaves only-->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+        <options>
+          <CRD_ShieldSlave>10</CRD_ShieldSlave>
+        </options>
+      </li>
+      <!-- 노예 돌격 엘리트 부대 -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <CRD_ShieldSlave>30</CRD_ShieldSlave>
+          <CRD_Sapper>3</CRD_Sapper>
+          <CRD_EliteSlasher>5</CRD_EliteSlasher>
+          <CRD_EliteGunner>10</CRD_EliteGunner>
+          <CradleLeader>4</CradleLeader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense-->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <CRD_Goods>3</CRD_Goods>
+          <CRD_Gunner>10</CRD_Gunner>
+          <CRD_Slasher>10</CRD_Slasher>
+          <CRD_Sapper>3</CRD_Sapper>
+          <CRD_EliteSlasher>10</CRD_EliteSlasher>
+          <CRD_EliteGunner>10</CRD_EliteGunner>
+          <CradleLeader>10</CradleLeader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/CRD_Icon</settlementTexturePath>
+  </FactionDef>
+
+  <FactionDef ParentName="CradleFactionBase">
+    <defName>Cradle</defName>
+    <label>Cradle rakkle factory</label>
+    <description>이곳은 노예로 팔릴 레이클을 육성하는 레이클 공장입니다. 정착지 형태를 띄고 있지만 그 목적은 다른 정착지들과는 매우 다릅니다. 외부 레이클들을 회수하는 업무도 하고 있습니다.</description>
+    <colorSpectrum>
+      <li>(0.81, 0.31, 0.31)</li>
+      <li>(0.81, 0.31, 0.31)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+  <FactionDef ParentName="HumanFactionBase" Name="RSFRUFactionBase" Abstract="True">
+    <pawnSingular>Rakkle</pawnSingular>
+    <pawnsPlural>Rakkles</pawnsPlural>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <leaderTitle>Leader</leaderTitle>
+    <factionIconPath>Icon/RS_Icon</factionIconPath>
+    <factionNameMaker>NamerFactionFRU</factionNameMaker>
+    <settlementNameMaker>NamerSettlementFRU</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>RSCivil_Adult</li>
+      <li>RSCivil_Child</li>
+      <li>RSFugitive</li>
+    </backstoryCategories>
+    <geneticVariance>0.7</geneticVariance>
+    <hairTags>
+      <li>RSHair</li>
+    </hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-15</min>
+      <max>65</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(1, 0)</li>
+        <li>(9999999999999999999999990, 0)</li>
+        <li>(9999999999999999999999999, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <RS_FRUT>5</RS_FRUT>
+          <RS_FRUG>100</RS_FRUG>
+        </options>
+      </li>
+      <!-- 시설 방어 -->
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <RS_FRUT>10</RS_FRUT>
+          <RS_FRUG>40</RS_FRUG>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RS_FRUT>10</RS_FRUT>
+          <RS_FRUG>40</RS_FRUG>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <RS_FRUT>1</RS_FRUT>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <RS_FRUG>40</RS_FRUG>
+          <RS_Fugitive>6</RS_Fugitive>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/RS_Icon</settlementTexturePath>
+  </FactionDef>
+
+
+  <FactionDef ParentName="RSFRUFactionBase">
+    <defName>FRU</defName>
+    <label>Free wanderer rakkle union</label>
+    <description>자유 레이클연합의 정착지입니다. 다양한 레이클들이 모여 살고 있습니다.</description>
+    <colorSpectrum>
+      <li>(0.88, 0.71, 0.41)</li>
+      <li>(0.88, 0.71, 0.41)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>15</min>
+      <max>55</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>15</min>
+      <max>55</max>
+    </naturalColonyGoodwill>
+  </FactionDef>
+
+</Defs>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- 경단 관련 -->
+    <ThingDef ParentName="MealBase" Name="RawMeatBallBase" Abstract="true">
+        <graphicData>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>300</WorkToMake>
+            <Nutrition>4</Nutrition>
+        </statBases>
+        <ingestible>
+            <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+            <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+            <ingestSound>Meal_Eat</ingestSound>
+            <outcomeDoers>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+            <li Class="CompProperties_FoodPoisonable" />
+            <li Class="CompProperties_Drug">
+                <chemical>RakkleShedPromoter</chemical>
+                <addictiveness>0</addictiveness>
+                <needLevelOffset>0</needLevelOffset>
+                <listOrder>1027</listOrder>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="RawMeatBallBase">
+        <defName>RS_BigSimpleRawMeatBall</defName>
+        <label>Big simple raw meatball</label>
+        <description>삼키기 쉽도록 크게 뭉친 생고기 경단.</description>
+        <graphicData>
+            <texPath>Things/Item/Meal/chopedS</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>5</MarketValue>
+        </statBases>
+        <ingestible>
+            <preferability>MealSimple</preferability>
+            <tasteThought>RS_AteSimpleRawFood</tasteThought>
+        </ingestible>
+    </ThingDef>
+
+
+    <ThingDef ParentName="RawMeatBallBase">
+        <defName>RS_BigLavishRawMeatBall</defName>
+        <label>Big lavish raw meatball</label>
+        <description>삼키기 쉽도록 크게 뭉친 생고기 경단. 맛이 없는 부분과 질이 좋지 않은 부분을 전부 제거하고 만들었습니다.</description>
+        <graphicData>
+            <texPath>Things/Item/Meal/chopedL</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>7</MarketValue>
+        </statBases>
+        <ingestible>
+            <preferability>MealLavish</preferability>
+            <tasteThought>RS_AteLavishRawFood</tasteThought>
+        </ingestible>
+    </ThingDef>
+
+    <ChemicalDef>
+        <defName>RakkleShedPromoter</defName>
+        <label>RakkleShedPromoter</label>
+        <addictionHediff>Hediff_RakkleShedPromoterA</addictionHediff>
+        <toleranceHediff>Hediff_RakkleShedPromoterT</toleranceHediff>
+        <canBinge>false</canBinge>
+    </ChemicalDef>
+
+    <RecipeDef Name="ChopMeatBase" Abstract="True">
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>ButcherFlesh</effectWorking>
+        <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <fixedIngredientFilter>
+            <categories>
+                <li>MeatRaw</li>
+            </categories>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <categories>
+                <li>MeatRaw</li>
+            </categories>
+            <disallowedCategories>
+                <li>EggsFertilized</li>
+            </disallowedCategories>
+            <disallowedThingDefs>
+                <li>Meat_Human</li>
+                <li>Meat_Megaspider</li>
+                <li>InsectJelly</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ChopMeatBase">
+        <defName>Making_BigSimpleRawMeatBall</defName>
+        <label>making big simple raw meatball</label>
+        <description>고기를 다지고 삼키기 좋게 뭉칩니다.</description>
+        <jobString>고기를 뭉치는 중...</jobString>
+        <workAmount>200</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>3.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <RS_BigSimpleRawMeatBall>1</RS_BigSimpleRawMeatBall>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ChopMeatBase">
+        <defName>Making_BigSimpleRawMeatBall_Bulk</defName>
+        <label>making big simple raw meatball bulk</label>
+        <description>고기를 다지고 삼키기 좋게 뭉칩니다. 한번에 4개 만듭니다.</description>
+        <jobString>고기를 뭉치는 중...</jobString>
+        <workAmount>750</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>14</count>
+            </li>
+        </ingredients>
+        <products>
+            <RS_BigSimpleRawMeatBall>4</RS_BigSimpleRawMeatBall>
+        </products>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="ChopMeatBase">
+        <defName>Making_BigLavishRawMeatBall</defName>
+        <label>making big lavish raw meatball</label>
+        <description>고기를 다지고 삼키기 좋게 뭉칩니다. 질이 나쁜 부분과 맛이 없는부분을 제거합니다.</description>
+        <jobString>고기를 뭉치는 중...</jobString>
+        <workAmount>200</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <products>
+            <RS_BigLavishRawMeatBall>1</RS_BigLavishRawMeatBall>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ChopMeatBase">
+        <defName>Making_BigLavishRawMeatBall_Bulk</defName>
+        <label>making big lavish raw meatball bulk</label>
+        <description>고기를 다지고 삼키기 좋게 뭉칩니다. 질이 나쁜 부분과 맛이 없는부분을 제거합니다. 한번에 4개 만듭니다.</description>
+        <jobString>고기를 뭉치는 중...</jobString>
+        <workAmount>750</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>16</count>
+            </li>
+        </ingredients>
+        <products>
+            <RS_BigLavishRawMeatBall>4</RS_BigLavishRawMeatBall>
+        </products>
+    </RecipeDef>
+
+
+    <!-- 허물관련 -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>RS_SnakeSkin</defName>
+        <label>Rakkle SnakeSkin</label>
+        <description>레이클이 벗은 허물. S.S구충제의 재료로 사용됩니다.</description>
+        <graphicData>
+            <texPath>Rakkles/Things/SnakeSkin</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <stackLimit>100</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>5</MarketValue>
+            <Mass>0.02</Mass>
+            <Flammability>1.2</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+    </ThingDef>
+
+
+    <ThingDef ParentName="MakeableDrugPillBase">
+        <defName>RS_helminthic</defName>
+        <label>S.S helminthic</label>
+        <description>레이클의 허물을 정제하여 만든 구충제. 내장기생충과 근기생충 감염을 치료해줍니다. 예방 효과는 없습니다.</description>
+        <descriptionHyperlinks>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Rakkles/Things/S.SHelminthic</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <socialPropernessMatters>false</socialPropernessMatters>
+        <rotatable>false</rotatable>
+        <statBases>
+            <WorkToMake>600</WorkToMake>
+            <MarketValue>18</MarketValue>
+            <Mass>0.005</Mass>
+            <Flammability>0.7</Flammability>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <ingestible>
+            <drugCategory>Medical</drugCategory>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>RS_helminthicHigh</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <recipeMaker>
+            <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Neutroamine>1</Neutroamine>
+            <RS_SnakeSkin>2</RS_SnakeSkin>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>1000</listOrder>
+                <overdoseSeverityOffset>0</overdoseSeverityOffset>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

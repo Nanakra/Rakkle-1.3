@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 식중독 -->
+  <Hediff_FoodpoisoningImmunity.label>没有食物中毒</Hediff_FoodpoisoningImmunity.label>
+  <Hediff_FoodpoisoningImmunity.description>食物中毒效果免疫。</Hediff_FoodpoisoningImmunity.description>
+  <Hediff_FoodpoisoningImmunity.labelNoun>食物中毒免疫</Hediff_FoodpoisoningImmunity.labelNoun>
+  <!-- 허물관련 -->
+  <Hediff_RakkleShedPromoterT.label>美杜莎促销标签</Hediff_RakkleShedPromoterT.label>
+  <Hediff_RakkleShedPromoterT.description>承办人。如果你看到这个句子，它就是一个bug。</Hediff_RakkleShedPromoterT.description>
+  <Hediff_RakkleShedPromoterA.label>美杜莎促销标签</Hediff_RakkleShedPromoterA.label>
+  <Hediff_RakkleShedPromoterA.description>承办人。如果你看到这个句子，它就是一个bug。</Hediff_RakkleShedPromoterA.description>
+  <RS_Shed.label>棚</RS_Shed.label>
+  <RS_Shed.description>为了成长，美杜莎定期脱去。</RS_Shed.description>
+  <RS_Shed.comps.1.discoverLetterLabel>{0}正准备离开{0}的小屋</RS_Shed.comps.1.discoverLetterLabel>
+  <RS_Shed.comps.1.discoverLetterText>{0}的突破不远了！</RS_Shed.comps.1.discoverLetterText>
+  <RS_Shed.stages.0.label>干燥</RS_Shed.stages.0.label>
+  <RS_Shed.stages.1.label>脱落</RS_Shed.stages.1.label>
+  <RS_Shed.stages.2.label>最后的</RS_Shed.stages.2.label>
+  <RS_Shed.stages.3.label>中期的</RS_Shed.stages.3.label>
+  <RS_Shed.stages.4.label>早期的</RS_Shed.stages.4.label>
+  <RS_helminthicHigh.label>寄生虫治疗</RS_helminthicHigh.label>
+  <RS_helminthicHigh.description>内脏寄生虫根寄生虫治疗</RS_helminthicHigh.description>
+  <RS_helminthicHigh.labelNoun>寄生虫治疗</RS_helminthicHigh.labelNoun>
+  <RS_BionicTail.label>仿生踝尾</RS_BionicTail.label>
+  <RS_BionicTail.description>由于生物工学蛇的尾巴，移动速度有所上升。</RS_BionicTail.description>
+  <RS_BionicTail.labelNoun>仿生踝尾</RS_BionicTail.labelNoun>
+  <RS_BionicBellyscale.label>仿生斜纹蛤</RS_BionicBellyscale.label>
+  <RS_BionicBellyscale.description>由于生物工学中心，移动速度有所上升。</RS_BionicBellyscale.description>
+  <RS_BionicBellyscale.labelNoun>还有一个生化肚皮耙</RS_BionicBellyscale.labelNoun>
+  <RS_WoodenTail.label>木蛇尾</RS_WoodenTail.label>
+  <RS_WoodenTail.description>是在尾巴被剪掉的部分佩戴的假尾巴。虽然有点碍手碍脚，但比没有强。</RS_WoodenTail.description>
+  <RS_WoodenTail.labelNoun>木制蛇手</RS_WoodenTail.labelNoun>
+  <!-- __________________________________ 레이클 기어 ___________________________________________ -->
+  <RS_Thermostat.label>恒温火箭</RS_Thermostat.label>
+  <RS_Thermostat.description>激光调节体温终端。贴在身上的面板感知周围环境，调节体温。</RS_Thermostat.description>
+  <RS_ObedienceTerminal.label>美杜莎服从终端</RS_ObedienceTerminal.label>
+  <RS_ObedienceTerminal.description>魔蛇之拥的奴隶美杜莎龙强制服从终端。反抗主人的同时，就会流下电流，燃烧神经系统。包括身体代谢促进功能，可以更快地移动，但耐久度却很差。</RS_ObedienceTerminal.description>
+</LanguageData>

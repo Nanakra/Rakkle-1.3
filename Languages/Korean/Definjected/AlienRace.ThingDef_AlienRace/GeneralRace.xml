@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <Rakkle.label>레이클</Rakkle.label>
+
+    <Rakkle.tools.0.label>왼쪽 주먹</Rakkle.tools.0.label>
+    <Rakkle.tools.1.label>오른쪽 주먹</Rakkle.tools.1.label>
+    <Rakkle.tools.2.label>독니</Rakkle.tools.2.label>
+    <Rakkle.tools.3.label>뱀 꼬리</Rakkle.tools.3.label>
+
+</LanguageData>

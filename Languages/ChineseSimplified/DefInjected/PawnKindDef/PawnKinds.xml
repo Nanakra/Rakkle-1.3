@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 플레이어 정착민 -->
+  <RS_Colonist.label>美杜莎殖民者</RS_Colonist.label>
+  <RS_Colonist.labelPlural>美杜莎殖民者</RS_Colonist.labelPlural>
+  <RS_Colonist.labelMale>男性美杜莎殖民者</RS_Colonist.labelMale>
+  <RS_Colonist.labelMalePlural>男性美杜莎殖民者</RS_Colonist.labelMalePlural>
+  <RS_Colonist.labelFemale>女性美杜莎殖民者</RS_Colonist.labelFemale>
+  <RS_Colonist.labelFemalePlural>女性美杜莎殖民者</RS_Colonist.labelFemalePlural>
+  <RS_Fugitive.label>美杜莎逃犯</RS_Fugitive.label>
+  <RS_Fugitive.labelPlural>美杜莎逃犯</RS_Fugitive.labelPlural>
+  <RS_Fugitive.labelMale>男性美杜莎逃犯</RS_Fugitive.labelMale>
+  <RS_Fugitive.labelMalePlural>男性美杜莎逃犯</RS_Fugitive.labelMalePlural>
+  <RS_Fugitive.labelFemale>女性美杜莎逃犯</RS_Fugitive.labelFemale>
+  <RS_Fugitive.labelFemalePlural>女性美杜莎逃犯</RS_Fugitive.labelFemalePlural>
+  <!-- 요람 고기방패 -->
+  <CRD_ShieldSlave.label>美杜莎黑奴</CRD_ShieldSlave.label>
+  <CRD_ShieldSlave.labelPlural>美杜莎黑奴</CRD_ShieldSlave.labelPlural>
+  <CRD_ShieldSlave.labelMale>男性美杜莎黑奴</CRD_ShieldSlave.labelMale>
+  <CRD_ShieldSlave.labelMalePlural>男性美杜莎黑奴</CRD_ShieldSlave.labelMalePlural>
+  <CRD_ShieldSlave.labelFemale>女性美杜莎黑奴</CRD_ShieldSlave.labelFemale>
+  <CRD_ShieldSlave.labelFemalePlural>女性美杜莎黑奴</CRD_ShieldSlave.labelFemalePlural>
+  <!-- 요람 상품 -->
+  <CRD_Goods.label>魔蛇之拥货物</CRD_Goods.label>
+  <CRD_Goods.labelPlural>魔蛇之拥货物</CRD_Goods.labelPlural>
+  <CRD_Goods.labelMale>男性魔蛇之拥用品</CRD_Goods.labelMale>
+  <CRD_Goods.labelMalePlural>男性魔蛇之拥用品</CRD_Goods.labelMalePlural>
+  <CRD_Goods.labelFemale>女性魔蛇之拥用品</CRD_Goods.labelFemale>
+  <CRD_Goods.labelFemalePlural>女性魔蛇之拥用品</CRD_Goods.labelFemalePlural>
+  <!-- 요람 납치범 -->
+  <CRD_Kidnapper.label>魔蛇之拥绑匪</CRD_Kidnapper.label>
+  <CRD_Kidnapper.labelPlural>魔蛇之拥绑匪</CRD_Kidnapper.labelPlural>
+  <CRD_Kidnapper.labelMale>男性魔蛇之拥绑匪</CRD_Kidnapper.labelMale>
+  <CRD_Kidnapper.labelMalePlural>男性魔蛇之拥绑匪</CRD_Kidnapper.labelMalePlural>
+  <CRD_Kidnapper.labelFemale>女性魔蛇之拥绑匪</CRD_Kidnapper.labelFemale>
+  <CRD_Kidnapper.labelFemalePlural>女性魔蛇之拥绑匪</CRD_Kidnapper.labelFemalePlural>
+  <!-- 요람 사격수 -->
+  <CRD_Gunner.label>魔蛇之拥炮手</CRD_Gunner.label>
+  <CRD_Gunner.labelPlural>魔蛇之拥炮手</CRD_Gunner.labelPlural>
+  <CRD_Gunner.labelMale>男性魔蛇之拥炮手</CRD_Gunner.labelMale>
+  <CRD_Gunner.labelMalePlural>男性魔蛇之拥炮手</CRD_Gunner.labelMalePlural>
+  <CRD_Gunner.labelFemale>女性魔蛇之拥炮手</CRD_Gunner.labelFemale>
+  <CRD_Gunner.labelFemalePlural>女性魔蛇之拥炮手</CRD_Gunner.labelFemalePlural>
+  <CRD_HeavyGunner.label>魔蛇之拥式重型炮手</CRD_HeavyGunner.label>
+  <CRD_HeavyGunner.labelPlural>魔蛇之拥式重型炮手</CRD_HeavyGunner.labelPlural>
+  <CRD_HeavyGunner.labelMale>男性魔蛇之拥式重型炮手</CRD_HeavyGunner.labelMale>
+  <CRD_HeavyGunner.labelMalePlural>男性魔蛇之拥式重型炮手</CRD_HeavyGunner.labelMalePlural>
+  <CRD_HeavyGunner.labelFemale>女性魔蛇之拥式重型炮手</CRD_HeavyGunner.labelFemale>
+  <CRD_HeavyGunner.labelFemalePlural>女性魔蛇之拥式重型炮手</CRD_HeavyGunner.labelFemalePlural>
+  <!-- 요람 돌격병 -->
+  <CRD_Slasher.label>美杜莎砍人机</CRD_Slasher.label>
+  <CRD_Slasher.labelPlural>美杜莎砍人机</CRD_Slasher.labelPlural>
+  <CRD_Slasher.labelMale>男性美杜莎砍人机</CRD_Slasher.labelMale>
+  <CRD_Slasher.labelMalePlural>男性美杜莎砍人机</CRD_Slasher.labelMalePlural>
+  <CRD_Slasher.labelFemale>女性美杜莎砍人机</CRD_Slasher.labelFemale>
+  <CRD_Slasher.labelFemalePlural>女性美杜莎砍人机</CRD_Slasher.labelFemalePlural>
+  <!-- 요람 공병 -->
+  <CRD_Sapper.label>魔蛇之拥工兵</CRD_Sapper.label>
+  <CRD_Sapper.labelPlural>魔蛇之拥工兵</CRD_Sapper.labelPlural>
+  <CRD_Sapper.labelMale>男性魔蛇之拥工兵</CRD_Sapper.labelMale>
+  <CRD_Sapper.labelMalePlural>男性魔蛇之拥工兵</CRD_Sapper.labelMalePlural>
+  <CRD_Sapper.labelFemale>女性魔蛇之拥工兵</CRD_Sapper.labelFemale>
+  <CRD_Sapper.labelFemalePlural>女性魔蛇之拥工兵</CRD_Sapper.labelFemalePlural>
+  <!-- 요람 지도자 -->
+  <CradleLeader.label>魔蛇之拥领队</CradleLeader.label>
+  <CradleLeader.labelPlural>魔蛇之拥领队</CradleLeader.labelPlural>
+  <CradleLeader.labelMale>男性魔蛇之拥领队</CradleLeader.labelMale>
+  <CradleLeader.labelMalePlural>男性魔蛇之拥领队</CradleLeader.labelMalePlural>
+  <CradleLeader.labelFemale>女性魔蛇之拥领队</CradleLeader.labelFemale>
+  <CradleLeader.labelFemalePlural>女性魔蛇之拥领队</CradleLeader.labelFemalePlural>
+  <!-- 요람 정예 돌격병 -->
+  <CRD_EliteSlasher.label>魔蛇之拥精英杀手</CRD_EliteSlasher.label>
+  <CRD_EliteSlasher.labelPlural>魔蛇之拥精英杀手</CRD_EliteSlasher.labelPlural>
+  <CRD_EliteSlasher.labelMale>男性魔蛇之拥精英杀手</CRD_EliteSlasher.labelMale>
+  <CRD_EliteSlasher.labelMalePlural>男性魔蛇之拥精英杀手</CRD_EliteSlasher.labelMalePlural>
+  <CRD_EliteSlasher.labelFemale>女性魔蛇之拥精英杀手</CRD_EliteSlasher.labelFemale>
+  <CRD_EliteSlasher.labelFemalePlural>女性魔蛇之拥精英杀手</CRD_EliteSlasher.labelFemalePlural>
+  <!-- 요람 정예 소총병 -->
+  <CRD_EliteGunner.label>魔蛇之拥精英炮手</CRD_EliteGunner.label>
+  <CRD_EliteGunner.labelPlural>魔蛇之拥精英炮手</CRD_EliteGunner.labelPlural>
+  <CRD_EliteGunner.labelMale>男性魔蛇之拥精英炮手</CRD_EliteGunner.labelMale>
+  <CRD_EliteGunner.labelMalePlural>男性魔蛇之拥精英炮手</CRD_EliteGunner.labelMalePlural>
+  <CRD_EliteGunner.labelFemale>女性魔蛇之拥精英炮手</CRD_EliteGunner.labelFemale>
+  <CRD_EliteGunner.labelFemalePlural>女性魔蛇之拥精英炮手</CRD_EliteGunner.labelFemalePlural>
+  <!-- 상단 멤버 -->
+  <RS_FRUT.label>美杜莎自由流浪者</RS_FRUT.label>
+  <RS_FRUT.labelPlural>美杜莎自由流浪者</RS_FRUT.labelPlural>
+  <RS_FRUT.labelMale>男性美杜莎自由流浪者</RS_FRUT.labelMale>
+  <RS_FRUT.labelMalePlural>男性美杜莎自由流浪者</RS_FRUT.labelMalePlural>
+  <RS_FRUT.labelFemale>女性美杜莎自由流浪者</RS_FRUT.labelFemale>
+  <RS_FRUT.labelFemalePlural>女性美杜莎自由流浪者</RS_FRUT.labelFemalePlural>
+
+  <RS_FRUG.label>美杜莎自由流浪者</RS_FRUG.label>
+  <RS_FRUG.labelPlural>美杜莎自由流浪者</RS_FRUG.labelPlural>
+  <RS_FRUG.labelMale>男性美杜莎自由流浪者</RS_FRUG.labelMale>
+  <RS_FRUG.labelMalePlural>男性美杜莎自由流浪者</RS_FRUG.labelMalePlural>
+  <RS_FRUG.labelFemale>女性美杜莎自由流浪者</RS_FRUG.labelFemale>
+  <RS_FRUG.labelFemalePlural>女性美杜莎自由流浪者</RS_FRUG.labelFemalePlural>
+</LanguageData>

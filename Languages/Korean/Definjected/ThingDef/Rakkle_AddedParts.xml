@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <RS_BionicTail.label>생체공학 레이클 하단꼬리</RS_BionicTail.label>
+    <RS_BionicBellyscale.label>생체공학 레이클 상단복판</RS_BionicBellyscale.label>
+    <RS_VenomGlands.label>레이클 독 분비선</RS_VenomGlands.label>
+    <RS_Thermostat.label>레이클 체온조절 단말</RS_Thermostat.label>
+    <RS_Thermostat.description>레이클 체온조절 단말. 몸에 붙어있는 패널이 주변 환경을 감지하여 체온을 조절해 줍니다.</RS_Thermostat.description>
+    <RS_ObedienceTerminal.label>레이클 강제복종 단말</RS_ObedienceTerminal.label>
+    <RS_ObedienceTerminal.description>요람의 노예 레이클용 강제 복종 단말. 주인에게 반항하는 즉시 전류를 흘려 신경계를 태워버립니다. 신체 대사 촉진기능도 포함되어 더 빠르게 움직일 수 있지만 내구도는 형편 없습니다.</RS_ObedienceTerminal.description>
+    
+</LanguageData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>RS_BionicTail</defName>
+		<label>Bionic rakkle tail</label>
+        <description>척추와 신경이 연결된 생체공학 하단꼬리입니다. 인공물이지만 진짜보다 더 효율적으로 움직입니다.</description>
+		<descriptionHyperlinks><RecipeDef>RS_InstallBionicTail</RecipeDef></descriptionHyperlinks>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<techLevel>Spacer</techLevel>
+		<costList> 
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>RS_BionicBellyscale</defName>
+		<label>Bionic rakkle belly scale</label>
+        <description>신경이 연결된 생체공학 상단복판입니다. 인공물이지만 진짜보다 더 효율적으로 움직입니다. 하단복판에는 장착할 수 없습니다.</description>
+		<descriptionHyperlinks><RecipeDef>RS_InstallBionicTail</RecipeDef></descriptionHyperlinks>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<techLevel>Spacer</techLevel>
+		<costList> 
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+    </ThingDef>
+
+	<ThingDef ParentName="BodyPartBase">
+		<defName>RS_VenomGlands</defName>
+		<label>Rakkle venom glands</label>
+        <description>레이클의 독 분비선입니다.</description>
+		<techLevel>Industrial</techLevel>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+		  <Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+		  <li>BodyPartsBionic</li>
+		</thingCategories>
+		<graphicData>
+		  <texPath>Things/Item/Health/HealthItem</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>0.80</drawSize>
+		  <color>(189,169,118)</color>
+		</graphicData>
+		<tradeTags>
+		  <li>Bionic</li>
+		</tradeTags>
+    </ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+        <defName>RS_Thermostat</defName>
+		<label>Rakkle Thermostat</label>
+        <description>rakkle thermostatic terminal. A panel attached to the body detects the surrounding environment and regulates the body temperature.</description>
+		<descriptionHyperlinks><RecipeDef>RS_InstallRakkleThermostat</RecipeDef></descriptionHyperlinks>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Thermostat/RS_Thermostat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+        </graphicData>
+        <costList>
+            <Plasteel>10</Plasteel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<statBases>
+		  <Mass>1</Mass>
+		</statBases>
+    </ThingDef>
+    
+    <ThingDef ParentName="BodyPartBase">
+        <defName>RS_ObedienceTerminal</defName>
+		<techLevel>Spacer</techLevel>
+		<thingCategories>
+		<li>BodyPartsBionic</li>
+		</thingCategories>
+		<label>Rakkle Obedience Terminal</label>
+        <description>forced obedience terminal for the slave rakkle of the cradle As soon as you defy your master, you burn the nervous system with electric current. It also includes body metabolism, so you can move faster, but it's less durable.</description>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Obedience/RS_Obedience</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<tradeTags>
+		  <li>Bionic</li>
+		</tradeTags>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <Mass>1</Mass>
+        </statBases>
+		<techHediffsTags>
+		  <li>Advanced</li>
+		</techHediffsTags>
+    </ThingDef>
+
+</Defs>

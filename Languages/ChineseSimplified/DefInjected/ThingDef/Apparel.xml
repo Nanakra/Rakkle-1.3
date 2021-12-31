@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 레이클 빤쓰 -->
+  <RS_ChestWrap.label>美杜莎胸罩</RS_ChestWrap.label>
+  <RS_ChestWrap.description>美杜莎的一般内衣。是男女通用商品。男士们对这件内衣有点害羞。</RS_ChestWrap.description>
+  <RS_KnitSweater.label>美杜莎针织毛衣</RS_KnitSweater.label>
+  <RS_KnitSweater.description>针织毛衣。可以在寒冷的天气里活动的衣服因为尺寸大，里面可以再穿别的衣服。n \ n虽然非常暖和，但是几乎没有保护功能。</RS_KnitSweater.description>
+  <!-- 색상 고정 -->
+  <RS_IdolCostume.label>美杜莎偶像服装</RS_IdolCostume.label>
+  <RS_IdolCostume.description>美杜莎爱豆服装这是雷克欢迎访客时穿的衣服。</RS_IdolCostume.description>
+  <!-- 레이클 항성계 아이돌 -->
+  <RS_StarIdol.label>美杜莎明星偶像服装</RS_StarIdol.label>
+  <RS_StarIdol.description>美杜莎星系偶像服装。是恒星界最棒的偶像穿的衣服n \ n这件衣服不能与除内衣以外的其他衣服一起穿着。</RS_StarIdol.description>
+  <RS_MaidCostume.label>美杜莎女仆服装</RS_MaidCostume.label>
+  <RS_MaidCostume.description>层叠式服装。原本是魔蛇之拥商品专用服装，但由于访客们的反应很好，所以自己生产了。</RS_MaidCostume.description>
+  
+</LanguageData>

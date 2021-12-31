@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Rakkle.label>美杜莎</Rakkle.label>
+  <Rakkle.description>美杜莎是人类改良了中间行星上发现的爬虫类土著生命体而制作的人造种族。</Rakkle.description>
+  <Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>皮肤</Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>头发</Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Rakkle.tools.0.label>左拳</Rakkle.tools.0.label>
+  <Rakkle.tools.1.label>右拳</Rakkle.tools.1.label>
+  <Rakkle.tools.2.label>毒牙</Rakkle.tools.2.label>
+  <Rakkle.tools.3.label>蛇尾</Rakkle.tools.3.label>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Categories -->
+	<StyleItemCategoryDef>
+		<defName>RS_Style</defName>
+		<label>rakkle style</label>
+	</StyleItemCategoryDef>
+</Defs>
+
+
+
+

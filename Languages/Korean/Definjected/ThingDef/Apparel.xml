@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <RSApparel.label>레이클 의류</RSApparel.label>
+
+    <RS_ChestWrap.label>레이클 가슴덮개</RS_ChestWrap.label>
+
+    <RS_KnitSweater.label>레이클 니트 스웨터</RS_KnitSweater.label>
+
+    <RS_IdolCostume.label>레이클 아이돌 복장</RS_IdolCostume.label>
+
+    <RS_StarIdol.label>레이클 항성계 아이돌 복장</RS_StarIdol.label>
+
+    <RS_MaidCostume.label>레이클 메이드 복장</RS_MaidCostume.label>
+
+</LanguageData>

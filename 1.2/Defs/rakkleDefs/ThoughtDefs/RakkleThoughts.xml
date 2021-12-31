@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThoughtDef>
+        <defName>AteSimpleMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate simple meal</label>
+                <description>간단한 식사였어.</description>
+                <baseMoodEffect>0</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteSimpleMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate simple meal</label>
+                <description>이거.. 야채 들어간거 아니지..?</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteFineMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate fine meal</label>
+                <description>좋은 식사..? 으엑..! 야채잖아!</description>
+                <baseMoodEffect>-13</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteLavishMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate lavish meal</label>
+                <description>호화..로운.. 우욱.. 토 할것같아..</description>
+                <baseMoodEffect>-18</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteSimpleRawFood</defName>
+        <durationDays>4</durationDays>
+        <stages>
+            <li>
+                <label>ate simple Raw Food</label>
+                <description>고기!</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+    <ThoughtDef>
+        <defName>RS_AteLavishRawFood</defName>
+        <durationDays>4</durationDays>
+        <stages>
+            <li>
+                <label>ate lavish Raw Food</label>
+                <description>고기고기!고기고기!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

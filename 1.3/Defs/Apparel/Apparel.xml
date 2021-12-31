@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>RSApparel</defName>
+        <label>Rakkle Apparel</label>
+        <parent>Apparel</parent>
+      </ThingCategoryDef>
+
+    <!--Apparelbase-->
+    <ThingDef Name="RS_ApparelBase" Abstract="True">
+        <thingClass>Apparel</thingClass>
+        <category>Item</category>
+        <selectable>True</selectable>
+        <pathCost>10</pathCost>
+        <useHitPoints>True</useHitPoints>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+            <drawSize>1</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>2</DeteriorationRate>
+            <Beauty>2</Beauty>
+        </statBases>
+        <altitudeLayer>Item</altitudeLayer>
+        <alwaysHaulable>True</alwaysHaulable>
+        <tickerType>Never</tickerType>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+        <apparel>
+            <tags>
+                <li>RS_Apparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        </recipeMaker>
+        <thingCategories>
+            <li>RSApparel</li>
+        </thingCategories>
+    </ThingDef>
+
+      <!-- 색상 가변 -->
+
+<!-- 레이클 빤쓰 -->
+    <ThingDef ParentName="RS_ApparelBase">
+        <defName>RS_ChestWrap</defName>
+        <description>레이클의 일반적인 속옷. 유니섹스 상품입니다. 남성 레이클들은 이 속옷을 은근히 부끄러워 합니다.</description>
+        <label>Rakkle Chestwrap</label>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Under/RS_Under</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>10</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.05</Mass>
+            <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.02</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Rakkles/Apparel/Under/RS_Under</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>RSUnder</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <tags>
+                <li>RSColonist</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="RS_ApparelBase">
+        <defName>RS_KnitSweater</defName>
+        <description>레이클 니트 스웨터. 강한 추위에도 활동할 수 있도록 입는 옷입니다. 사이즈가 커서 안에 다른 옷을 겹쳐 입을 수 있습니다. \n\n굉장히 따듯하지만 보호기능은 거의 없습니다.</description>
+        <label>Rakkle Knit Sweater</label>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Knit/RS_Knit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>105</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8500</WorkToMake>
+            <Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.9</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Rakkles/Apparel/Knit/RS_Knit</wornGraphicPath>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <tags>
+                <li>RSColonist</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+    
+
+    <!-- 색상 고정 -->
+    
+
+    <ThingDef ParentName="RS_ApparelBase">
+        <defName>RS_IdolCostume</defName>
+        <description>레이클 아이돌 복장. 레이클이 방문객들을 환영할 때에 입는 옷입니다.</description>
+        <label>Rakkle Idol Costume</label>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Idol/RS_Idol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>95</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>5200</WorkToMake>
+            <Mass>1.3</Mass>
+            <Flammability>0.7</Flammability>
+            <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+          <SocialImpact>0.1</SocialImpact>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Rakkles/Apparel/Idol/RS_Idol</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <tags>
+                <li>RSColonist</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+    
+    <!--레이클 항성계 아이돌-->
+    
+    <ThingDef ParentName="RS_ApparelBase">
+        <defName>RS_StarIdol</defName>
+        <description>레이클 항성계 아이돌 복장. 항성계 제일의 아이돌이 입는 옷입니다. \n\n이 옷은 속옷을 제외한 다른 옷과 같이 착용 할 수 없습니다.</description>
+        <label>Rakkle Star Idol Dress</label>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/StarIdol/RS_StarIdol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+          <WorkToMake>9200</WorkToMake>
+          <MaxHitPoints>200</MaxHitPoints>
+          <Mass>1.5</Mass>
+          <Flammability>0.7</Flammability>
+          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+          <Beauty>4</Beauty>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+            <TradePriceImprovement>0.25</TradePriceImprovement>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>ApparelNoble</li>
+        </thingCategories>
+        <costStuffCount>135</costStuffCount>
+        <stuffCategories>
+          <li>Fabric</li>
+          <li>Leathery</li>
+        </stuffCategories>
+        <apparel>
+          <bodyPartGroups>
+            <li>Torso</li>
+            <li>Neck</li>
+            <li>Shoulders</li>
+            <li>Arms</li>
+            <li>Legs</li>
+          </bodyPartGroups>
+            <wornGraphicPath>Rakkles/Apparel/StarIdol/RS_StarIdol</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <tags>  
+                <li>RSRoyal</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+    
+
+    <ThingDef ParentName="RS_ApparelBase">
+        <defName>RS_MaidCostume</defName>
+        <description>레이클 메이드 복장. 원래는 요람의 상품 전용 복장이지만 방문객들의 반응이 좋아서 자체 생산하게 되었습니다.</description>
+        <label>Rakkle Maid costume</label>
+        <recipeMaker>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Rakkles/Apparel/Maid/RS_Maid</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>5200</WorkToMake>
+            <Mass>1.2</Mass>
+            <Flammability>0.7</Flammability>
+            <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+          <SocialImpact>0.1</SocialImpact>
+          <FoodPoisonChance>-0.15</FoodPoisonChance>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Legs</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Rakkles/Apparel/Maid/RS_Maid</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <tags>
+                <li>RSColonist</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,6 @@
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Assemblies\Lab.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Assemblies\Lab.pdb
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Source\obj\Debug\Lab.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Source\obj\Debug\Lab.pdb
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Source\obj\Debug\Lab.csprojAssemblyReference.cache
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Laboratory\Source\obj\Debug\Lab.csproj.CopyComplete

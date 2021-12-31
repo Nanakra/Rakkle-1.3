@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <EVOR_Surgery_Tail_Blade_Rakkle.label>&lt;color=#00FFF7>레이클 톱니형 쐐기 꼬리 이식&lt;/color></EVOR_Surgery_Tail_Blade_Rakkle.label>
+  <EVOR_Surgery_Tail_Blade_Rakkle.description>레이클 톱니형 쐐기 꼬리를 이식합니다.</EVOR_Surgery_Tail_Blade_Rakkle.description>
+  <EVOR_Surgery_Tail_Blade_Rakkle.jobString>레이클 톱니형 쐐기 꼬리 이식 중.</EVOR_Surgery_Tail_Blade_Rakkle.jobString>
+  <EVOR_Surgery_Tail_Hand_Rakkle.label>&lt;color=#00FFF7>레이클 조작 꼬리 이식&lt;/color></EVOR_Surgery_Tail_Hand_Rakkle.label>
+  <EVOR_Surgery_Tail_Hand_Rakkle.description>레이클 조작 꼬리를 이식합니다.</EVOR_Surgery_Tail_Hand_Rakkle.description>
+  <EVOR_Surgery_Tail_Hand_Rakkle.jobString>레이클 조작 꼬리 이식 중.</EVOR_Surgery_Tail_Hand_Rakkle.jobString>
+
+</LanguageData>

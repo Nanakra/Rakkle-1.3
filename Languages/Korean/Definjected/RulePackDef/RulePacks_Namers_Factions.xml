@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <NamerFactionCradle.rulePack.rulesStrings.0>r_name->[ColorBadass] 레이클 생산 공장</NamerFactionCradle.rulePack.rulesStrings.0>
+    <NamerFactionCradle.rulePack.rulesStrings.1>r_name->[NamePerson]의 레이클 생산 공장</NamerFactionCradle.rulePack.rulesStrings.1>
+
+
+    <NamerSettlementCradle.rulePack.rulesStrings.2>CRDStownend->토피아</NamerSettlementCradle.rulePack.rulesStrings.2>
+    <NamerSettlementCradle.rulePack.rulesStrings.3>CRDStownend->란티스</NamerSettlementCradle.rulePack.rulesStrings.3>
+    <NamerSettlementCradle.rulePack.rulesStrings.4>CRDStownend->그릴라</NamerSettlementCradle.rulePack.rulesStrings.4>
+    <NamerSettlementCradle.rulePack.rulesStrings.5>CRDStownend->라다이스</NamerSettlementCradle.rulePack.rulesStrings.5>
+    <NamerSettlementCradle.rulePack.rulesStrings.6>CRDStownend->의 에덴</NamerSettlementCradle.rulePack.rulesStrings.6>
+    <NamerSettlementCradle.rulePack.rulesStrings.7>CRDStownend->도라도</NamerSettlementCradle.rulePack.rulesStrings.7>
+
+
+    <NamerFactionFRU.rulePack.rulesStrings.3>r_name->[nearnameinitial]의 [political_union_outlander]</NamerFactionFRU.rulePack.rulesStrings.3>
+    <NamerFactionFRU.rulePack.rulesStrings.4>r_name->[nearnameinitial]의 [political_adjective] [political_union_outlander]</NamerFactionFRU.rulePack.rulesStrings.4>
+
+    
+    <NamerSettlementFRU.rulePack.rulesStrings.6>townname_combo->[topicalnoun]의 [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.6>
+    <NamerSettlementFRU.rulePack.rulesStrings.7>townname_combo(p=2)->[concept_positive]의 [FRUtownend]</NamerSettlementFRU.rulePack.rulesStrings.7>
+    <NamerSettlementCradle.rulePack.rulesStrings.9>townname_combo(p=3)->[Character]의 [FRUtownend]</NamerSettlementCradle.rulePack.rulesStrings.9>
+    
+    <NamerSettlementFRU.rulePack.rulesStrings.14>FRUtownend->똬리</NamerSettlementFRU.rulePack.rulesStrings.14>
+    <NamerSettlementFRU.rulePack.rulesStrings.15>FRUtownend->독니</NamerSettlementFRU.rulePack.rulesStrings.15>
+    <NamerSettlementFRU.rulePack.rulesStrings.16>FRUtownend->동지</NamerSettlementFRU.rulePack.rulesStrings.16>
+    <NamerSettlementFRU.rulePack.rulesStrings.17>FRUtownend->은신처</NamerSettlementFRU.rulePack.rulesStrings.17>
+    <NamerSettlementFRU.rulePack.rulesStrings.18>FRUtownend->비늘</NamerSettlementFRU.rulePack.rulesStrings.18>
+    <NamerSettlementFRU.rulePack.rulesStrings.19>FRUtownend->마을</NamerSettlementFRU.rulePack.rulesStrings.19>
+    <NamerSettlementFRU.rulePack.rulesStrings.20>FRUtownend->방패</NamerSettlementFRU.rulePack.rulesStrings.20>
+</LanguageData>

@@ -1,0 +1,18 @@
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Source\obj\Debug\Rakkle.csprojAssemblyReference.cache
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Source\obj\Debug\Rakkle.csproj.CoreCompileInputs.cache
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Assemblies\Rakkle.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Assemblies\Rakkle.pdb
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Source\obj\Debug\Rakkle.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Raycle\Source\obj\Debug\Rakkle.pdb
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Assemblies\Rakkle.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Assemblies\Rakkle.pdb
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Source\obj\Debug\Rakkle.csprojAssemblyReference.cache
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Source\obj\Debug\Rakkle.csproj.CoreCompileInputs.cache
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Source\obj\Debug\Rakkle.dll
+E:\Program Files (x86)\SteamLibrary\steamapps\common\RimWorld\Mods\Rakkle\Source\obj\Debug\Rakkle.pdb
+C:\Users\admin\Documents\GitHub\Source\obj\Debug\Rakkle.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Source\obj\Debug\Rakkle.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Source\obj\Debug\Rakkle.dll
+C:\Users\admin\Documents\GitHub\Source\obj\Debug\Rakkle.pdb
+C:\Users\admin\Documents\GitHub\Source\Rakkle.dll
+C:\Users\admin\Documents\GitHub\Source\Rakkle.pdb

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Rakkle.corePart.parts.left_lower_shoulder.customLabel>왼쪽 아래 어깨</Rakkle.corePart.parts.left_lower_shoulder.customLabel>
+  <Rakkle.corePart.parts.right_lower_shoulder.customLabel>오른쪽 아래 어깨</Rakkle.corePart.parts.right_lower_shoulder.customLabel>
+  <Rakkle.corePart.parts.left_chest_cavity.customLabel>왼쪽 흉강</Rakkle.corePart.parts.left_chest_cavity.customLabel>
+  <Rakkle.corePart.parts.right_chest_cavity.customLabel>오른쪽 흉강</Rakkle.corePart.parts.right_chest_cavity.customLabel>
+  <Rakkle.corePart.parts.left_abdominal_cavity.customLabel>왼쪽 복강</Rakkle.corePart.parts.left_abdominal_cavity.customLabel>
+  <Rakkle.corePart.parts.right_abdominal_cavity.customLabel>오른쪽 복강</Rakkle.corePart.parts.right_abdominal_cavity.customLabel>
+  <Rakkle.corePart.parts.upper_back.customLabel>윗등</Rakkle.corePart.parts.upper_back.customLabel>
+  <Rakkle.corePart.parts.lower_back.customLabel>아랫등</Rakkle.corePart.parts.lower_back.customLabel>
+
+</LanguageData>

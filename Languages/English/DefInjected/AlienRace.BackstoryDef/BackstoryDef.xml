@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <!-- 유년 -->
+
+    <Rakkle_ColonyKid.baseDescription>[PAWN_nameDef] is an ordinary kid from anywhere who grew up in any free rakkle settlement.</Rakkle_ColonyKid.baseDescription>
+
+    <Rakkle_Student.baseDescription>[PAWN_nameDef] is a school-trained rakkle. [PAWN_pronoun] made friends at school and learned how to survive in the periphery.</Rakkle_Student.baseDescription>
+
+    <Rakkle_EmergencyFood.baseDescription>[PAWN_nameDef] is a young rakkle kidnapped by a cannibal tribe. [PAWN_pronoun] spent scary days watching other friends disappear one by one. [PAWN_pronoun] escaped through a tunnel secretly dug, but the wound still lingers on [PAWN_pronoun].</Rakkle_EmergencyFood.baseDescription>
+
+    <Rakkle_GiftedChild.baseDescription>[PAWN_nameDef] was recognized as a gifted child and received a high level of education.</Rakkle_GiftedChild.baseDescription>
+
+    <Rakkle_Bully.baseDescription>[PAWN_nameDef] is the children's alley leader in a free rakkle settlement.</Rakkle_Bully.baseDescription>
+
+    <Rakkle_Subject.baseDescription>[PAWN_nameDef] grew up as an experiment in a lab from a very young age. After a hard experiment, [PAWN_pronoun] eventually lost human's mind.</Rakkle_Subject.baseDescription>
+
+    <Rakkle_HunterAssistant.baseDescription>[PAWN_nameDef] is a famous hunter's assistant. Although still young, [PAWN_pronoun] has the ability to hunt.</Rakkle_HunterAssistant.baseDescription>
+
+    <Rakkle_BookWorm.baseDescription>[PAWN_nameDef] is a great bookworm. For [PAWN_pronoun] the world is too rough, but the knowledge gained from the book will be of great help to [PAWN_pronoun]. In other words, [PAWN_pronoun] wants to be called a book snake rather than a bookworm.</Rakkle_BookWorm.baseDescription>
+
+    <Rakkle_ClothingStoreKid.baseDescription>[PAWN_nameDef] is a child of a seamstress. The knowledge I learned over my loving mother's shoulder will help [PAWN_pronoun] to some extent.</Rakkle_ClothingStoreKid.baseDescription>
+
+    <Rakkle_ConstructionWorker.baseDescription>[PAWN_nameDef] is a young rakkle who is responsible for chores at the construction site. I don't usually do this when I was a kid, but [PAWN_pronoun] had a reason to do it.</Rakkle_ConstructionWorker.baseDescription>
+
+    <Rakkle_Orphan.baseDescription>[PAWN_nameDef] is an orphan who lived in a ruins outside a settlement. [PAWN_pronoun] also doesn't know why he doesn't have parents. What's important right now is to survive.</Rakkle_Orphan.baseDescription>
+
+    <Rakkle_ImmatureChild.baseDescription>[PAWN_nameDef] is a immature kid.</Rakkle_ImmatureChild.baseDescription>
+
+    <Rakkle_PrecociousChild.baseDescription>[PAWN_nameDef] has always been called an old child by adults. Adult [PAWN_pronoun] wants to help settlement.</Rakkle_PrecociousChild.baseDescription>
+
+    <Rakkle_CuriousChild.baseDescription>[PAWN_nameDef] is a curious little boy. Curiosity causes a lot of problems, but this curiosity will help you a lot.</Rakkle_CuriousChild.baseDescription>
+
+    <Rakkle_WildSnake.baseDescription>[PAWN_nameDef] is a rakkle that grew up alone in the wild. Life in the settlement is awkward for [PAWN_pronoun] who was found in the wild and joined the settlement.</Rakkle_WildSnake.baseDescription>
+
+    <Rakkle_SandboxGreat.baseDescription>[PAWN_nameDef] is the best sand castle builder in the settlement. No one in the settlement will follow [PAWN_pronoun]'s sand castle.</Rakkle_SandboxGreat.baseDescription>
+
+    <Rakkle_PeePoo.baseDescription>[PAWN_nameDef] is a child who is interested in the body. [PAWN_pronoun] makes excuses not to pee every time.</Rakkle_PeePoo.baseDescription>
+
+    <Rakkle_AbandonedYoungSlave.baseDescription>[PAWN_nameDef] was a slave to a human settlement. The settlement wasn't part of the cradle, but he liked to bully [PAWN_pronoun] into slavery.</Rakkle_AbandonedYoungSlave.baseDescription>
+
+    <Rakkle_IdolTrainee.baseDescription>[PAWN_nameDef] is a child who wants to become an idol someday. The story of an adult star idol was enough to fascinate [PAWN_pronoun].</Rakkle_IdolTrainee.baseDescription>
+
+    <Rakkle_LittleGlutton.baseDescription>[PAWN_nameDef] meat is a great eater. [PAWN_pronoun] studied cooking to eat meat more deliciously. It's just raw meat.</Rakkle_LittleGlutton.baseDescription>
+
+    <Rakkle_PlantLover.baseDescription>[PAWN_nameDef] is a slightly unusual rakkle. They are not interested in plants because Rakkle is a carnivore. But [PAWN_pronoun] is very interested in the crops that trees and humans eat.</Rakkle_PlantLover.baseDescription>
+
+    <CRD_YoungGoods.baseDescription>[PAWN_nameDef] is one of the products managed by the cradle. [PAWN_pronoun] is still young, but [PAWN_pronoun] is waiting for a day to serve humans soon.</CRD_YoungGoods.baseDescription>
+
+    <CRD_CradleLeaderChild.baseDescription>[PAWN_nameDef] is a child of the cot leadership. [PAWN_pronoun] will grow up to be a member of the leadership class, not a product.</CRD_CradleLeaderChild.baseDescription>
+
+    <!-- 성년 -->
+
+    <Rakkle_Blacksmith.baseDescription>[PAWN_nameDef] is a blacksmith. The rakkle is friendly to other tribes, but in order to survive in the periphery, they also had to produce weapons.</Rakkle_Blacksmith.baseDescription>
+
+    <Rakkle_Butcher.baseDescription>[PAWN_nameDef] is an employee of a settlement butcher. Cooking doesn't mean much to Rakkle, but slaughtering is one of the most important things.</Rakkle_Butcher.baseDescription>
+
+    <Rakkle_Seamstress.baseDescription>[PAWN_nameDef] ran a clothing store. The clothes [PAWN_pronoun] made were very popular.</Rakkle_Seamstress.baseDescription>
+
+    <Rakkle_Rancher.baseDescription>[PAWN_nameDef] is a rakkle that used to raise livestock on a large ranch. Livestock is a very important resource for rakkle, a carnivore.</Rakkle_Rancher.baseDescription>
+
+    <Rakkle_Guard.baseDescription>[PAWN_nameDef] is the rakkle that kept the settlement safe. [PAWN_pronoun] will do its best to protect the settlers from the cradle.</Rakkle_Guard.baseDescription>
+
+    <Rakkle_Hunter.baseDescription>[PAWN_nameDef] is a hunter responsible for supplying meat to the settlement. Hunters are very important and indispensable jobs for rakkle who can't eat crops.</Rakkle_Hunter.baseDescription>
+
+    <Rakkle_Architect.baseDescription>[PAWN_nameDef] is a rakkle that studies construction techniques to repair and expand settlements. To withstand the attack from the cradle, we need to build a stronger fortress.</Rakkle_Architect.baseDescription>
+
+    <Rakkle_Avenger.baseDescription>[PAWN_nameDef] is a rakkle who lost family after being attacked by a cradle in the past. [PAWN_pronoun] continues to train to avenge them.</Rakkle_Avenger.baseDescription>
+
+    <Rakkle_CannibalSnake.baseDescription>Rakkle is usually friendly to the heterogeneous and doesn't eat, but there are exceptions. [PAWN_nameDef] was a member of the small rakkle tribe. [PAWN_pronoun] from the tribe still hasn't forgotten the taste of human flesh.</Rakkle_CannibalSnake.baseDescription>
+
+    <Rakkle_Farmer.baseDescription>In the past, rakkle settlements did not farm. But now, many farmer rakkles have been created to interact with ethnic groups. [PAWN_nameDef] is more talented in farming than other rakkles. I'm still immature for the mixed race.</Rakkle_Farmer.baseDescription>
+
+    <Rakkle_Diplomat.baseDescription>[PAWN_nameDef] visits friendly settlements around the rakkle settlements and interacts. Rakkle, who has to interact with ethnic groups, continues to foster diplomats.</Rakkle_Diplomat.baseDescription>
+
+    <Rakkle_Lazy.baseDescription>[PAWN_nameDef] is a great slut. [PAWN_pronoun] hates to work the most.</Rakkle_Lazy.baseDescription>
+
+    <Rakkle_Idol.baseDescription>[PAWN_nameDef] is a famous in-planetary idol. In Rimworld, the demand for idols is not high, but we can cheer up because we have fans who like them. [PAWN_pronoun] dreams of becoming a star idol someday.</Rakkle_Idol.baseDescription>
+
+    <Rakkle_Model.baseDescription>[PAWN_nameDef] is a model rakkle with beautiful beauty and body.</Rakkle_Model.baseDescription>
+
+    <Rakkle_Teacher.baseDescription>[PAWN_nameDef] is the teacher responsible for the children in the settlement. A gentle-tempered [PAWN_pronoun] is a popular teacher for children.</Rakkle_Teacher.baseDescription>
+
+    <Rakkle_Professor.baseDescription>[PAWN_nameDef] is a professor in charge of research in settlements. [PAWN_pronoun] also plays a role in educating other settlers, but [PAWN_pronoun] feels more comfortable studying.</Rakkle_Professor.baseDescription>
+
+    <Rakkle_Miner.baseDescription>[PAWN_nameDef] is a miner. It is said that primitive rakkles had a habit of digging into the ground and living. [PAWN_pronoun] says the cradle is mined thinking about the primitive rakkle that has been wiped out.</Rakkle_Miner.baseDescription>
+
+    <Rakkle_Merchant.baseDescription>[PAWN_nameDef] loves money. [PAWN_pronoun] is thinking about how to sell and buy more cheaply, both at night and at night.</Rakkle_Merchant.baseDescription>
+
+    <Rakkle_Gunner.baseDescription>[PAWN_nameDef] has a talent for shooting. [PAWN_pronoun] says playing with a slingshot from an early age was helpful.</Rakkle_Gunner.baseDescription>
+
+    <Rakkle_Storyteller.baseDescription>[PAWN_nameDef] is a rakkle that tells children funny stories. If there is a TV in a settlement, it is popular with children in a settlement that does not.</Rakkle_Storyteller.baseDescription>
+
+    <Rakkle_Fool.baseDescription>[PAWN_nameDef] is an idiot. [PAWN_pronoun] don't really think about anything and just live as it goes.</Rakkle_Fool.baseDescription>
+
+    <Rakkle_Doctor.baseDescription>[PAWN_nameDef] is the 'doctor' of the settlement. [PAWN_pronoun] decided to become a doctor after seeing the number of injuries increased due to frequent raids. And now many people in the settlements rely on [PAWN_pronoun].</Rakkle_Doctor.baseDescription>
+
+    <Rakkle_OrphanageDirector.baseDescription>[PAWN_nameDef] is the head of an orphanage that takes care of orphans in a settlement. [PAWN_pronoun] wants children to stop suffering.</Rakkle_OrphanageDirector.baseDescription>
+
+    <Rakkle_Artist.baseDescription>[PAWN_nameDef] is an artistic-talented racle. [PAWN_pronoun] who feels rewarding for other settlers to look after his art will continue to make art for the settlers.</Rakkle_Artist.baseDescription>
+
+    <Rakkle_EscapedGoods.baseDescription>[PAWN_nameDef] is one of the items that escaped from the cradle. The mentally insensitive [PAWN_pronoun] didn't get brainwashed and witnessed what happened to his sold friends. On the day that [PAWN_pronoun] was sold, a group of mechanoid fell at the cot stop and [PAWN_pronoun] took advantage of it and ran away.</Rakkle_EscapedGoods.baseDescription>
+
+    <CDR_Toy.baseDescription>[PAWN_nameDef] is a product raised by human toys. [PAWN_pronoun] has been trained in various things that make human beings happy.</CDR_Toy.baseDescription>
+
+    <CDR_Maid.baseDescription>[PAWN_nameDef] is a product raised as a maid for the upper class of humans. [PAWN_pronoun] was trained in housework.</CDR_Maid.baseDescription>
+
+    <CDR_Livestock.baseDescription>[PAWN_nameDef] is a product raised to produce livestock products for humans. [PAWN_pronoun] will be sold elsewhere depending on its purpose. Maybe they'll be slaughtered as soon as they're sold.</CDR_Livestock.baseDescription>
+
+    <CDR_Workman.baseDescription>[PAWN_nameDef] is a product developed to be involved in various tasks in human society. [PAWN_pronoun] will do its best for the human race.</CDR_Workman.baseDescription>
+
+    <CDR_Slave.baseDescription>[PAWN_nameDef] is simply a slave product. This product is inferior to other products. [PAWN_pronoun] will be used like a consumable.</CDR_Slave.baseDescription>
+
+    <CDR_FightingSnake.baseDescription>[PAWN_nameDef] is a fighter's prize in a fight snake contest. Although rakkle is not very aggressive, fighting snakes like [PAWN_pronoun] have been taught to fight from an early age.</CDR_FightingSnake.baseDescription>
+
+    <CDR_Breeder.baseDescription>[PAWN_nameDef] is a product raised to produce another rakkle. This product is sold only to special trim customers. [PAWN_pronoun] will continue to give birth for your master until it is useless.</CDR_Breeder.baseDescription>
+
+    <CDR_serf.baseDescription>[PAWN_nameDef] is a product trained to work in the fields. The rakkle is a carnivore, but [PAWN_pronoun] will plough the field hard for his master.</CDR_serf.baseDescription>
+
+    <CDR_Attacker.baseDescription>[PAWN_nameDef] was a product label managed by the cradle. Recognizing the combat talent of [PAWN_pronoun] the cradle fostered [PAWN_pronoun] as a combatant.</CDR_Attacker.baseDescription>
+
+    <CDR_Elite.baseDescription>[PAWN_nameDef] is an elite who has been professionally trained since childhood. [PAWN_pronoun] will destroy all enemies for the cradle settlement.</CDR_Elite.baseDescription>
+
+    <CDR_Captured.baseDescription>[PAWN_nameDef] was a free rakkle in a settlement. One day a cradle's rakkle recovery unit came into [PAWN_pronoun]'s settlement, and all the rakkles were taken away except for the rakkles that were resisting. [PAWN_pronoun] is no more than or less than the meat shield of the cradle.</CDR_Captured.baseDescription>
+
+    <CDR_Leader.baseDescription>[PAWN_nameDef] is the leader of the Cradle settlement. [PAWN_pronoun] has had professional education and training since childhood. [PAWN_pronoun] will keep this comfortable life going for their own children.</CDR_Leader.baseDescription>
+
+
+    
+
+</LanguageData>

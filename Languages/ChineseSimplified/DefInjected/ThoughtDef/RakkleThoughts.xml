@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteSimpleMeal.stages.0.label>吃了简单的一餐</AteSimpleMeal.stages.0.label>
+  <AteSimpleMeal.stages.0.description>简单的用餐。</AteSimpleMeal.stages.0.description>
+  <RS_AteSimpleMeal.stages.0.label>吃了简单的一餐</RS_AteSimpleMeal.stages.0.label>
+  <RS_AteSimpleMeal.stages.0.description>这个。没有放蔬菜吧？</RS_AteSimpleMeal.stages.0.description>
+  <RS_AteFineMeal.stages.0.label>吃好饭</RS_AteFineMeal.stages.0.label>
+  <RS_AteFineMeal.stages.0.description>好的饭…？哇…！是蔬菜啊！</RS_AteFineMeal.stages.0.description>
+  <RS_AteLavishMeal.stages.0.label>吃了大餐</RS_AteLavishMeal.stages.0.label>
+  <RS_AteLavishMeal.stages.0.description>豪华..乌郁。。好像要吐了..</RS_AteLavishMeal.stages.0.description>
+  <RS_AteSimpleRawFood.stages.0.label>食用简单的生食</RS_AteSimpleRawFood.stages.0.label>
+  <RS_AteSimpleRawFood.stages.0.description>肉!</RS_AteSimpleRawFood.stages.0.description>
+  <RS_AteLavishRawFood.stages.0.label>吃大量的生食</RS_AteLavishRawFood.stages.0.label>
+  <RS_AteLavishRawFood.stages.0.description>肉!肉!</RS_AteLavishRawFood.stages.0.description>
+</LanguageData>

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="RS_PawnBase">
+    <defName>Rakkle</defName>
+    <label>Rakkle</label>
+    <description>레이클은 중간계 어느 행성에서 발견된 파충류형 토착 생명체를 인간이 개량하여 만든 인조 종족입니다.</description>
+    <alienRace>
+      <generalSettings>
+        <minAgeForAdulthood>16</minAgeForAdulthood>
+        <maleGenderProbability>0.2</maleGenderProbability>
+        <!--<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>-->
+        <immuneToAge>false</immuneToAge>
+        <humanRecipeImport>true</humanRecipeImport>
+        <canLayDown>true</canLayDown>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <immuneToXenophobia>true</immuneToXenophobia>
+        <disallowedTraits>
+          <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+          </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>-1</degree>
+          </li>
+          <li>
+            <defName>AnnoyingVoice</defName>
+          </li>
+          <li>
+            <defName>CreepyBreathing</defName>
+          </li>
+          <li>
+            <defName>Xenophobia</defName>
+          </li>
+          <li>
+            <defName>BodyPurist</defName>
+          </li>
+          <li>
+            <defName>Ascetic</defName>
+          </li>
+        </disallowedTraits>
+
+        <chemicalSettings>
+          <li>
+            <chemical>RakkleShedPromoter</chemical>
+            <reactions>
+              <li Class="IngestionOutcomeDoer_GiveHediff">
+                <hediffDef>Hediff_RakkleShedPromoterM</hediffDef>
+                <chance>0.3</chance>
+                <doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+              </li>
+            </reactions>
+          </li>
+        </chemicalSettings>
+
+        <!--=파트제네레이터==========================================================================================-->
+        <alienPartGenerator>
+          <aliencrowntypes>            <!-- 헤드 -->
+            <li>Average_1</li>
+            <li>Average_2</li>
+            <li>Average_3</li>
+            <li>Average_4</li>
+            <li>Average_5</li>
+            <li>Average_6</li>
+            <li>Average_7</li>
+            <li>Average_8</li>
+            <li>Average_9</li>
+            <li>Average_10</li>
+          </aliencrowntypes>
+          <alienbodytypes>            <!-- 바디 -->
+            <li>RakkleF</li>
+            <li>RakkleM</li>
+          </alienbodytypes>
+          <headOffset>(-0.01, 0)</headOffset>
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          <!-- 신체 드로잉 크기 -->
+          <customDrawSize>(1, 1)</customDrawSize>
+          <customHeadDrawSize>(1, 1)</customHeadDrawSize>
+          <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+          <!--컬러-->
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(190,70,65,255)</min>
+                    <max>RGBA(190,80,80,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(95,165,101,255)</min>
+                    <max>RGBA(105,170,105,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(154,206,130,255)</min>
+                    <max>RGBA(160,210,130,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(255,203,71,255)</min>
+                    <max>RGBA(255,210,75,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(165,106,66,255)</min>
+                    <max>RGBA(175,110,66,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(250,240,225,255)</min>
+                    <max>RGBA(255,250,235,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(202,165,202,255)</min>
+                    <max>RGBA(210,165,220,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(65,65,102,255)</min>
+                    <max>RGBA(70,65,130,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(250,128,108,255)</min>
+                    <max>RGBA(255,140,108,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(112,115,163,255)</min>
+                    <max>RGBA(112,120,175,255)</max>
+                  </li>
+                  <li>
+                    <weight>65</weight>
+                    <min>RGBA(100,123,80,255)</min>
+                    <max>RGBA(110,140,95,255)</max>
+                  </li>
+                  <!-- 레어컬러 -->
+                  <li>                    <!-- 푸른색 -->
+                    <weight>9</weight>
+                    <min>RGBA(94,195,233,255)</min>
+                    <max>RGBA(94,195,255,255)</max>
+                  </li>
+                  <li>                    <!-- 핫핑크 -->
+                    <weight>9</weight>
+                    <min>RGBA(200,115,165,255)</min>
+                    <max>RGBA(210,115,170,255)</max>
+                  </li>
+                  <li>                    <!-- 알비노 -->
+                    <weight>9</weight>
+                    <only>RGBA(255,255,255,255)</only>
+                  </li>
+                  <li>                    <!-- 골든 -->
+                    <weight>9</weight>
+                    <only>RGBA(255,191,0,255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+            </li>
+          </colorChannels>
+
+          <!-- 신체 부착물 -->
+          <bodyAddons>
+            <!-- 꼬리 -->
+            <li>
+              <drawSize>1</drawSize>
+              <path>Rakkles/Tails/S/RSTail</path>
+              <bodyPart>RS_LowerTail</bodyPart>
+              <inFrontOfBody>false</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <shaderType>CutoutComplex</shaderType>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <RakkleF>(-0.425,0.21)</RakkleF>
+                    <RakkleM>(-0.425,0.21)</RakkleM>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <RakkleF>(0,0.55)</RakkleF>
+                    <RakkleM>(0,0.55)</RakkleM>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <RakkleF>(-0.42,0.22)</RakkleF>
+                    <RakkleM>(-0.42,0.22)</RakkleM>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <hediffGraphics>
+                <RS_WoodenTail>Rakkles/Tails/FS/RSFakeTail</RS_WoodenTail>
+              </hediffGraphics>
+            </li>
+            <li>
+              <drawSize>1</drawSize>
+              <path>Rakkles/Tails/F_S/RSTail</path>
+              <bodyPart>RS_LowerTail</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <shaderType>CutoutComplex</shaderType>
+              <drawnInBed>false</drawnInBed>
+              <layerOffset>-0.28</layerOffset>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <RakkleF>(-0.425,0.21)</RakkleF>
+                    <RakkleM>(-0.425,0.21)</RakkleM>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <RakkleF>(0,0.55)</RakkleF>
+                    <RakkleM>(0,0.55)</RakkleM>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <RakkleF>(-0.42,0.22)</RakkleF>
+                    <RakkleM>(-0.42,0.22)</RakkleM>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <hediffGraphics>
+                <RS_WoodenTail>Rakkles/Tails/F_FS/RSFakeTail</RS_WoodenTail>
+              </hediffGraphics>
+            </li>
+            <li>
+              <drawSize>1</drawSize>
+              <path>Rakkles/Tails/N/RSTail</path>
+              <bodyPart>RS_LowerTail</bodyPart>
+              <inFrontOfBody>false</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <shaderType>CutoutComplex</shaderType>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <RakkleF>(-0.425,0.21)</RakkleF>
+                    <RakkleM>(-0.425,0.21)</RakkleM>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <RakkleF>(0,0.55)</RakkleF>
+                    <RakkleM>(0,0.55)</RakkleM>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <RakkleF>(-0.42,0.22)</RakkleF>
+                    <RakkleM>(-0.42,0.22)</RakkleM>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <hediffGraphics>
+                <RS_WoodenTail>Rakkles/Tails/FN/RSFakeTail</RS_WoodenTail>
+              </hediffGraphics>
+            </li>
+
+            <!-- 체온단말 
+            <li>
+              <drawSize>1</drawSize>
+              <path>Rakkles/Apparel/Thermostat/RS_None</path>
+              <bodyPart>Spine</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <shaderType>Cutout</shaderType>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <RakkleF>(-0.417,0.22)</RakkleF>
+                    <RakkleM>(-0.417,0.22)</RakkleM>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <RakkleF>(-0.417,0.22)</RakkleF>
+                    <RakkleM>(-0.417,0.22)</RakkleM>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <RakkleF>(-0.417,0.22)</RakkleF>
+                    <RakkleM>(-0.417,0.22)</RakkleM>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <hediffGraphics>
+                <RS_Thermostat>Rakkles/Apparel/Thermostat/RS_Thermostat</RS_Thermostat>
+                <RS_ObedienceTerminal>Rakkles/Apparel/Obedience/RS_Obedience</RS_ObedienceTerminal>
+              </hediffGraphics>
+            </li> -->
+          
+          </bodyAddons>
+        </alienPartGenerator>
+
+      </generalSettings>
+
+      <!--텍스처경로-->
+      <graphicPaths>
+        <li>
+          <head>Rakkles/Heads/</head>
+          <body>Rakkles/Bodies/</body>
+          <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+        </li>
+      </graphicPaths>
+      <!-- 헤어 -->
+      <hairSettings>
+        <hasHair>true</hasHair>
+        <hairTags>
+          <li>RShair</li>
+        </hairTags>
+      </hairSettings>
+
+      <relationSettings>
+
+      </relationSettings>
+
+      <!-- 레이클 생각 설정 -->
+      <thoughtSettings>
+        <replacerList>
+          <li>
+            <original>AteSimpleMeal</original>
+            <replacer>RS_AteSimpleMeal</replacer>
+          </li>
+          <li>
+            <original>AteFineMeal</original>
+            <replacer>RS_AteFineMeal</replacer>
+          </li>
+          <li>
+            <original>AteLavishMeal</original>
+            <replacer>RS_AteLavishMeal</replacer>
+          </li>
+          <li>
+            <original>AteRawFood</original>
+            <replacer>RS_AteSimpleRawFood</replacer>
+          </li>
+        </replacerList>
+        <cannotReceiveThoughts>
+          <li>AteCorpse</li>
+        </cannotReceiveThoughts>
+
+      </thoughtSettings>
+
+
+      <!--=============================================================================================================================-->
+      <raceRestriction>
+
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <apparelList>
+          <li>RS_ChestWrap</li>
+          <li>RS_IdolCostume</li>
+          <li>RS_KnitSweater</li>
+          <li>RS_MaidCostume</li>
+          <li>RS_StarIdol</li>
+        </apparelList>
+        <whiteApparelList>
+          <li>Apparel_ShieldBelt</li>
+          <li>Apparel_CowboyHat</li>
+          <li>Apparel_BowlerHat</li>
+          <li>Apparel_TribalHeaddress</li>
+          <li>Apparel_Tuque</li>
+          <li>Apparel_WarMask</li>
+          <li>Apparel_WarVeil</li>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_AdvancedHelmet</li>
+          <li>Apparel_PowerArmorHelmet</li>
+          <li>Apparel_PsychicFoilHelmet</li>
+          <li>Apparel_SmokepopBelt</li>
+          <li>Apparel_PsychicShockLance</li>
+          <li>Apparel_PsychicInsanityLance</li>
+          <li>Apparel_TribalA</li>
+          <li>Apparel_Parka</li>
+          <li>Apparel_Pants</li>
+          <li>Apparel_BasicShirt</li>
+          <li>Apparel_CollarShirt</li>
+          <li>Apparel_Duster</li>
+          <li>Apparel_Jacket</li>
+          <li>Apparel_PlateArmor</li>
+          <li>Apparel_FlakVest</li>
+          <li>Apparel_FlakPants</li>
+          <li>Apparel_FlakJacket</li>
+          <li>Apparel_PowerArmor</li>
+          <li>Apparel_ArmorRecon</li>
+          <li>Apparel_ArmorHelmetRecon</li>
+        </whiteApparelList>
+
+        <!-- 음식제한 -->
+        <onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+        <foodList>
+          <li>RS_BigSimpleRawMeatBall</li>
+          <li>RS_BigLavishRawMeatBall</li>
+        </foodList>
+
+        <buildingList>
+        </buildingList>
+      </raceRestriction>
+    </alienRace>
+    <!--=============================================================================================================================-->
+    <statBases>
+      <!--기본-->
+      <MarketValue>3500</MarketValue>
+      <Flammability>1</Flammability>
+      <MoveSpeed>6</MoveSpeed>
+      <MentalBreakThreshold>0.30</MentalBreakThreshold>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <ComfyTemperatureMin>24</ComfyTemperatureMin>
+      <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+      <CarryingCapacity>90</CarryingCapacity>
+      <MeatAmount>80</MeatAmount>
+      <LeatherAmount>65</LeatherAmount>
+      <Mass>95</Mass>
+      <PainShockThreshold>0.80</PainShockThreshold>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <EatingSpeed>0.7</EatingSpeed>
+      <!-- 전투 -->
+      <MeleeDodgeChance>2</MeleeDodgeChance>
+      <MeleeHitChance>1.8</MeleeHitChance>
+      <AimingDelayFactor>1.1</AimingDelayFactor>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+      <!--사교-->
+      <NegotiationAbility>1.5</NegotiationAbility>      <!--외교 영향력-->
+      <SellPriceFactor>1.2</SellPriceFactor>      <!--거래 가격 개선-->
+      <SocialImpact>1.3</SocialImpact>      <!--사회적 영향력-->
+      <!--제작-->
+      <ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency>      <!--메카노이드 분해 효율-->
+      <ButcheryMechanoidSpeed>1.0</ButcheryMechanoidSpeed>      <!--메카노이드 분해 속도-->
+      <SmeltingSpeed>1.0</SmeltingSpeed>      <!--금속 제련 속도-->
+      <!--<SmithingSpeed>1.0</SmithingSpeed>-->      <!--제련 속도-->
+      <GeneralLaborSpeed>1.3</GeneralLaborSpeed>      <!--재단 속도-->
+      <!--조리-->
+      <ButcheryFleshEfficiency>3</ButcheryFleshEfficiency>      <!--도축 효율-->
+      <ButcheryFleshSpeed>2</ButcheryFleshSpeed>      <!--도축 속도-->
+      <FoodPoisonChance>1.4</FoodPoisonChance>      <!--식중독 확률-->
+      <CookSpeed>0.6</CookSpeed>      <!--조리 속도-->
+      <!--수면-->
+      <RestRateMultiplier>1.2</RestRateMultiplier>
+      <!--재배-->
+      <PlantWorkSpeed>0.4</PlantWorkSpeed>
+      <!--의학및연구-->
+      <ResearchSpeed>0.8</ResearchSpeed>      <!--연구 속도-->
+      <MedicalTendQuality>1</MedicalTendQuality>
+      <DrugSynthesisSpeed>1</DrugSynthesisSpeed>
+      <MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+      <!--채굴-->
+      <MiningSpeed>1.2</MiningSpeed>
+      <MiningYield>0.9</MiningYield>
+      <!--식사-->
+
+
+    </statBases>
+    <!--==맨손전투===================================================================================================================-->
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Blunt</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>fangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>snake tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>tail</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <!--=============================================================================================================================-->
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>false</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <hasGenders>true</hasGenders>
+      <body>Rakkle</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
+      <gestationPeriodDays>28</gestationPeriodDays>
+      <baseHungerRate>0.55</baseHungerRate>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 0.70)</li>
+          <li>(2, 0.20)</li>
+          <li>(3, 0.07)</li>
+          <li>(4, 0.03)</li>
+          <li>(5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>RakkleTeenager</def>
+          <minAge>12</minAge>
+        </li>
+        <li>
+          <def>RakkleAdult</def>
+          <minAge>16</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(16,40)</li>
+          <li>(18,70)</li>
+          <li>(22,100)</li>
+          <li>(30,20)</li>
+          <li>(60,3)</li>
+          <li>(80,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>Rakkle_BasicHediffSet</li>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+    <!--=============================================================================================================================-->
+    <recipes>
+      <li>RS_InstallBionicBellyscale</li>
+      <li>RS_InstallBionicTail</li>
+      <li>RS_InstallWoodenTail</li>
+      <li>RS_RemoveBionicBellyscale</li>
+      <li>RS_RemoveBionicTail</li>
+      <li>RS_RemoveWoodenTail</li>
+      <li>RS_InstallRakkleThermostat</li>
+      <li>RS_RemoveRakkleThermostat</li>
+      <li>RS_RemoveObedienceTerminal</li>
+      <li>RS_InstallObedienceTerminal</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+
+  <LifeStageDef>
+    <defName>RakkleTeenager</defName>
+    <label>teenager</label>
+    <adjective>teenage</adjective>
+    <reproductive>true</reproductive>
+    <bodySizeFactor>0.85</bodySizeFactor>
+    <healthScaleFactor>0.90</healthScaleFactor>
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <foodMaxFactor>5.0</foodMaxFactor>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  <LifeStageDef>
+    <defName>RakkleAdult</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+    <foodMaxFactor>5.0</foodMaxFactor>
+  </LifeStageDef>
+</Defs>

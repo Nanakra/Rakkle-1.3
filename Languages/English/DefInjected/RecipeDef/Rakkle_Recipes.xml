@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <RS_InstallWoodenTail.description>Implant a fake wooden tail</RS_InstallWoodenTail.description>
+
+    <RS_RemoveWoodenTail.description>Remove the fake wooden tail.</RS_RemoveWoodenTail.description>
+
+    <RS_InstallBionicTail.description>Implant a bionic racle tail.</RS_InstallBionicTail.description>
+
+    <RS_RemoveBionicTail.description>Remove the bionic tail</RS_RemoveBionicTail.description>
+
+    <RS_InstallBionicBellyscale.description>Implant a bionic belly scale.</RS_InstallBionicBellyscale.description>
+
+    <RS_RemoveBionicBellyscale.description>Remove the bionic belly scale.</RS_RemoveBionicBellyscale.description>
+
+</LanguageData>

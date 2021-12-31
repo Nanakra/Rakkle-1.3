@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <Rakkle_ColonyKid.title>레이클 정착지 꼬마</Rakkle_ColonyKid.title>
+    <Rakkle_ColonyKid.titleShort>정착지 꼬마</Rakkle_ColonyKid.titleShort>
+    
+    <Rakkle_Student.title>레이클 학생</Rakkle_Student.title>
+    <Rakkle_Student.titleShort>학생</Rakkle_Student.titleShort>
+    
+    <Rakkle_EmergencyFood.title>레이클 비상식량</Rakkle_EmergencyFood.title>
+    <Rakkle_EmergencyFood.titleShort>비상식량</Rakkle_EmergencyFood.titleShort>
+    
+    <Rakkle_GiftedChild.title>레이클 영재</Rakkle_GiftedChild.title>
+    <Rakkle_GiftedChild.titleShort>영재</Rakkle_GiftedChild.titleShort>
+    
+    <Rakkle_Bully.title>레이클 골목대장</Rakkle_Bully.title>
+    <Rakkle_Bully.titleShort>골목대장</Rakkle_Bully.titleShort>
+    
+    <Rakkle_Subject.title>레이클 실험체</Rakkle_Subject.title>
+    <Rakkle_Subject.titleShort>실험체</Rakkle_Subject.titleShort>
+    
+    <Rakkle_HunterAssistant.title>레이클 사냥꾼 조수</Rakkle_HunterAssistant.title>
+    <Rakkle_HunterAssistant.titleShort>사냥꾼 조수</Rakkle_HunterAssistant.titleShort>
+    
+    <Rakkle_BookWorm.title>레이클 책벌레</Rakkle_BookWorm.title>
+    <Rakkle_BookWorm.titleShort>책벌레</Rakkle_BookWorm.titleShort>
+    
+    <Rakkle_ClothingStoreKid.title>레이클 옷가게 아이</Rakkle_ClothingStoreKid.title>
+    <Rakkle_ClothingStoreKid.titleShort>옷가게 아이</Rakkle_ClothingStoreKid.titleShort>
+    
+    <Rakkle_ConstructionWorker.title>레이클 공사장 잡일꾼</Rakkle_ConstructionWorker.title>
+    <Rakkle_ConstructionWorker.titleShort>공사장 잡일꾼</Rakkle_ConstructionWorker.titleShort>
+    
+    <Rakkle_Orphan.title>레이클 고아</Rakkle_Orphan.title>
+    <Rakkle_ColonyKid.titleShort>고아</Rakkle_ColonyKid.titleShort>
+    
+    <Rakkle_ImmatureChild.title>레이클 철부지</Rakkle_ImmatureChild.title>
+    <Rakkle_ImmatureChild.titleShort>철부지</Rakkle_ImmatureChild.titleShort>
+    
+    <Rakkle_PrecociousChild.title>레이클 애늙은이</Rakkle_PrecociousChild.title>
+    <Rakkle_PrecociousChild.titleShort>애늙은이</Rakkle_PrecociousChild.titleShort>
+    
+    <Rakkle_CuriousChild.title>레이클 호기심 대장</Rakkle_CuriousChild.title>
+    <Rakkle_CuriousChild.titleShort>호기심 대장</Rakkle_CuriousChild.titleShort>
+    
+    <Rakkle_WildSnake.title>레이클 야생뱀</Rakkle_WildSnake.title>
+    <Rakkle_WildSnake.titleShort>야생뱀</Rakkle_WildSnake.titleShort>
+    
+    <Rakkle_SandboxGreat.title>레이클 모래사장 여포</Rakkle_SandboxGreat.title>
+    <Rakkle_SandboxGreat.titleShort>모래사장 여포</Rakkle_SandboxGreat.titleShort>
+    
+    <Rakkle_PeePoo.title>레이클 오줌싸개</Rakkle_PeePoo.title>
+    <Rakkle_PeePoo.titleShort>오줌싸개</Rakkle_PeePoo.titleShort>
+    
+    <Rakkle_AbandonedYoungSlave.title>레이클 버려진 어린 노예</Rakkle_AbandonedYoungSlave.title>
+    <Rakkle_AbandonedYoungSlave.titleShort>버려진 어린 노예</Rakkle_AbandonedYoungSlave.titleShort>
+    
+    <Rakkle_IdolTrainee.title>레이클 아이돌 연습생</Rakkle_IdolTrainee.title>
+    <Rakkle_IdolTrainee.titleShort>아이돌 연습생</Rakkle_IdolTrainee.titleShort>
+    
+    <Rakkle_LittleGlutton.title>레이클 꼬마 먹보</Rakkle_LittleGlutton.title>
+    <Rakkle_LittleGlutton.titleShort>꼬마 먹보</Rakkle_LittleGlutton.titleShort>
+    
+    <Rakkle_PlantLover.title>레이클 식물 애호가</Rakkle_PlantLover.title>
+    <Rakkle_PlantLover.titleShort>식물 애호가</Rakkle_PlantLover.titleShort>
+    
+    <CRD_YoungGoods.title>레이클 어린 상품</CRD_YoungGoods.title>
+    <CRD_YoungGoods.titleShort>어린 상품</CRD_YoungGoods.titleShort>
+    
+    <CRD_CradleLeaderChild.title>레이클 지도층 자녀</CRD_CradleLeaderChild.title>
+    <CRD_CradleLeaderChild.titleShort>지도층 자녀</CRD_CradleLeaderChild.titleShort>
+    
+    <Rakkle_Blacksmith.title>레이클 대장장이</Rakkle_Blacksmith.title>
+    <Rakkle_Blacksmith.titleShort>대장장이</Rakkle_Blacksmith.titleShort>
+    
+    <Rakkle_Butcher.title>레이클 도축자</Rakkle_Butcher.title>
+    <Rakkle_Butcher.titleShort>도축자</Rakkle_Butcher.titleShort>
+    
+    <Rakkle_Seamstress.title>레이클 재봉사</Rakkle_Seamstress.title>
+    <Rakkle_Seamstress.titleShort>재봉사</Rakkle_Seamstress.titleShort>
+    
+    <Rakkle_Rancher.title>레이클 목장주</Rakkle_Rancher.title>
+    <Rakkle_Rancher.titleShort>목장주</Rakkle_Rancher.titleShort>
+    
+    <Rakkle_Guard.title>레이클 경비</Rakkle_Guard.title>
+    <Rakkle_Guard.titleShort>경비</Rakkle_Guard.titleShort>
+    
+    <Rakkle_Hunter.title>레이클 사냥꾼</Rakkle_Hunter.title>
+    <Rakkle_Hunter.titleShort>사냥꾼</Rakkle_Hunter.titleShort>
+    
+    <Rakkle_Architect.title>레이클 건축업자</Rakkle_Architect.title>
+    <Rakkle_Architect.titleShort>건축업자</Rakkle_Architect.titleShort>
+    
+    <Rakkle_Avenger.title>레이클 복수자</Rakkle_Avenger.title>
+    <Rakkle_Avenger.titleShort>복수자</Rakkle_Avenger.titleShort>
+    
+    <Rakkle_CannibalSnake.title>레이클 식인뱀</Rakkle_CannibalSnake.title>
+    <Rakkle_CannibalSnake.titleShort>식인뱀</Rakkle_CannibalSnake.titleShort>
+    
+    <Rakkle_Farmer.title>레이클 농부</Rakkle_Farmer.title>
+    <Rakkle_Farmer.titleShort>농부</Rakkle_Farmer.titleShort>
+    
+    <Rakkle_Diplomat.title>레이클 외교관</Rakkle_Diplomat.title>
+    <Rakkle_Diplomat.titleShort>외교관</Rakkle_Diplomat.titleShort>
+    
+    <Rakkle_Lazy.title>레이클 게으름뱅이</Rakkle_Lazy.title>
+    <Rakkle_Lazy.titleShort>게으름뱅이</Rakkle_Lazy.titleShort>
+    
+    <Rakkle_Idol.title>레이클 아이돌</Rakkle_Idol.title>
+    <Rakkle_Idol.titleShort>아이돌</Rakkle_Idol.titleShort>
+    
+    <Rakkle_Model.title>레이클 모델</Rakkle_Model.title>
+    <Rakkle_Model.titleShort>모델</Rakkle_Model.titleShort>
+    
+    <Rakkle_Teacher.title>레이클 선생님</Rakkle_Teacher.title>
+    <Rakkle_Teacher.titleShort>선생님</Rakkle_Teacher.titleShort>
+    
+    <Rakkle_Professor.title>레이클 교수</Rakkle_Professor.title>
+    <Rakkle_Professor.titleShort>교수</Rakkle_Professor.titleShort>
+    
+    <Rakkle_Miner.title>레이클 광부</Rakkle_Miner.title>
+    <Rakkle_Miner.titleShort>광부</Rakkle_Miner.titleShort>
+    
+    <Rakkle_Merchant.title>레이클 장사치</Rakkle_Merchant.title>
+    <Rakkle_Merchant.titleShort>장사치</Rakkle_Merchant.titleShort>
+    
+    <Rakkle_Gunner.title>레이클 총잡이</Rakkle_Gunner.title>
+    <Rakkle_Gunner.titleShort>총잡이</Rakkle_Gunner.titleShort>
+    
+    <Rakkle_Storyteller.title>레이클 이야기꾼</Rakkle_Storyteller.title>
+    <Rakkle_Storyteller.titleShort>이야기꾼</Rakkle_Storyteller.titleShort>
+    
+    <Rakkle_Fool.title>레이클 바보</Rakkle_Fool.title>
+    <Rakkle_Fool.titleShort>바보</Rakkle_Fool.titleShort>
+    
+    <Rakkle_Doctor.title>레이클 의사</Rakkle_Doctor.title>
+    <Rakkle_Doctor.titleShort>의사</Rakkle_Doctor.titleShort>
+    
+    <Rakkle_OrphanageDirector.title>레이클 고아원장</Rakkle_OrphanageDirector.title>
+    <Rakkle_OrphanageDirector.titleShort>고아원장</Rakkle_OrphanageDirector.titleShort>
+    
+    <Rakkle_Artist.title>레이클 미술가</Rakkle_Artist.title>
+    <Rakkle_Artist.titleShort>미술가</Rakkle_Artist.titleShort>
+    
+    <Rakkle_EscapedGoods.title>레이클 도망친 상품</Rakkle_EscapedGoods.title>
+    <Rakkle_EscapedGoods.titleShort>도망친 상품</Rakkle_EscapedGoods.titleShort>
+    
+    <CDR_Toy.title>요람 노리개</CDR_Toy.title>
+    <CDR_Toy.titleShort>노리개</CDR_Toy.titleShort>
+    
+    <CDR_Maid.title>요람 메이드</CDR_Maid.title>
+    <CDR_Maid.titleShort>메이드</CDR_Maid.titleShort>
+    
+    <CDR_Livestock.title>요람 가축</CDR_Livestock.title>
+    <CDR_Livestock.titleShort>가축</CDR_Livestock.titleShort>
+    
+    <CDR_Workman.title>요람 일꾼</CDR_Workman.title>
+    <CDR_Workman.titleShort>일꾼</CDR_Workman.titleShort>
+    
+    <CDR_Slave.title>요람 노예</CDR_Slave.title>
+    <CDR_Slave.titleShort>노예</CDR_Slave.titleShort>
+    
+    <CDR_FightingSnake.title>요람 투기뱀</CDR_FightingSnake.title>
+    <CDR_FightingSnake.titleShort>투기뱀</CDR_FightingSnake.titleShort>
+    
+    <CDR_Breeder.title>요람 번식용 뱀</CDR_Breeder.title>
+    <CDR_Breeder.titleShort>번식용 뱀</CDR_Breeder.titleShort>
+    
+    <CDR_serf.title>요람 농노</CDR_serf.title>
+    <CDR_serf.titleShort>농노</CDR_serf.titleShort>
+    
+    <CDR_Attacker.title>요람 전투원</CDR_Attacker.title>
+    <CDR_Attacker.titleShort>전투원</CDR_Attacker.titleShort>
+    
+    <CDR_Elite.title>요람 엘리트 전투원</CDR_Elite.title>
+    <CDR_Elite.titleShort>엘리트 전투원</CDR_Elite.titleShort>
+    
+    <CDR_Captured.title>요람 사로잡힌 레이클</CDR_Captured.title>
+    <CDR_Captured.titleShort>사로잡힌 레이클</CDR_Captured.titleShort>
+    
+    <CDR_Leader.title>요람 리더</CDR_Leader.title>
+    <CDR_Leader.titleShort>리더</CDR_Leader.titleShort>
+
+
+
+
+
+</LanguageData>

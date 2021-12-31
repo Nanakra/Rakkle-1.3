@@ -1,0 +1,19 @@
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "MealSimple"]/ingestible</xpath>
+        <value>
+            <tasteThought>AteSimpleMeal</tasteThought>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "TableButcher"]/recipes</xpath>
+        <value>
+            <li>Making_BigSimpleRawMeatBall</li>
+            <li>Making_BigSimpleRawMeatBall_Bulk</li>
+            <li>Making_BigLavishRawMeatBall</li>
+            <li>Making_BigLavishRawMeatBall_Bulk</li>
+        </value>
+    </Operation>
+
+</Patch>

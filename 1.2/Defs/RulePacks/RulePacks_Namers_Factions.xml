@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Cradle Faction / Settlement namers -->
+
+    <RulePackDef>
+        <defName>NamerFactionCradle</defName>
+
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->The [ColorBadass] rakkle incubating plant</li>
+                <li>r_name->[NamePerson]'s rakkle incubating plant</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerSettlementCradle</defName>
+        <rulePack>
+            <rulesStrings>
+
+                <li>r_name->[townname_wordgen]</li>
+
+
+                <li>townname_wordgen->[SylE][CRDStownend]</li>
+                <li>CRDStownend->topia</li>
+                <li>CRDStownend->lantis</li>
+                <li>CRDStownend->grila</li>
+                <li>CRDStownend->radise</li>
+                <li>CRDStownend->'s Eden</li>
+                <li>CRDStownend->dorado</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerFactionFRU</defName>
+        <include>
+          <li>OutlanderPlaceNameUtility</li>
+        </include>
+
+        <rulePack>
+            <rulesStrings>
+              <li>r_name(p=3)->[nearnameinitial]</li>
+              <li>r_name->[nearnameinitial] [political_union_outlander]</li>
+              <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
+              <li>r_name->[political_union_outlander] of [nearnameinitial]</li>
+              <li>r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]</li>
+              <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+              <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
+            </rulesStrings>
+            <rulesFiles>
+              <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+              <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
+            </rulesFiles>
+          </rulePack>
+
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerSettlementFRU</defName>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name(p=12)->[townname_wordgen]</li>
+            <li>r_name(p=4)->[townname_combo]</li>
+    
+            <li>topicalnoun->[Vegetable]</li>
+            <li>topicalnoun->[Game]</li>
+            <li>topicalnoun->[BodyPart]</li>
+    
+            <li>townname_combo->[topicalnoun] [FRUtownend]</li>
+            <li>townname_combo->[topicalnoun]'s [FRUtownend]</li>
+            <li>townname_combo(p=2)->[concept_positive]'s [FRUtownend]</li>
+            <li>townname_combo(p=2)->[concept_positive] [FRUtownend]</li>
+            <li>townname_combo(p=3)->[Character]'s [FRUtownend]</li>
+    
+            <li>townname_wordgen(p=2)->[SylE] [FRUtownend]</li>
+            <li>townname_wordgen(p=2)->[SylE][SylE] [FRUtownend]</li>
+            <li>townname_wordgen->[TerrainFeature] [FRUtownend]</li>
+            <li>townname_wordgen->[topicalnoun] [FRUtownend]</li>
+            <li>FRUtownend->coil</li>
+            <li>FRUtownend->fangs</li>
+            <li>FRUtownend->nest</li>
+            <li>FRUtownend->shelter</li>
+            <li>FRUtownend->scale</li>
+            <li>FRUtownend->town</li>
+            <li>FRUtownend->shield</li>
+          </rulesStrings>
+          <rulesFiles>
+              <li>townname_fixed->Names/OutlanderTown</li>
+              <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+          </rulesFiles>
+        </rulePack>
+      </RulePackDef>
+</Defs>

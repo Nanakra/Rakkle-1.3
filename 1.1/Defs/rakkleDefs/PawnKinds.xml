@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <PawnKindDef Name="RSBasePawnKind" Abstract="True">
+    <race>Rakkle</race>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+
+  <!-- 플레이어 정착민 -->
+  <PawnKindDef ParentName="RSBasePawnKind">
+    <defName>RS_Colonist</defName>
+    <label>Rakkle colonist</label>
+    <minGenerationAge>16</minGenerationAge>
+    <defaultFactionType>RS_PlayerFaction</defaultFactionType>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>RSColonist</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>150</min>
+      <max>300</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>RS_ChestWrap</li>
+    </apparelRequired>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>400</max>
+    </techHediffsMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RSCivil_Adult</li>
+          <li>RSCivil_Child</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="RSBasePawnKind">
+    <defName>RS_Fugitive</defName>
+    <label>Rakkle Fugitive</label>
+    <minGenerationAge>16</minGenerationAge>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>50</min>
+      <max>200</max>
+    </apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsChance>0.01</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>RSFugitive</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 -->
+
+  <!-- 기본 -->
+  <PawnKindDef Name="CradleBasePawnKind" Abstract="True">
+    <race>Rakkle</race>
+    <defaultFactionType>Cradle</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <biocodeWeaponChance>0.1</biocodeWeaponChance>
+    <maxGenerationAge>65</maxGenerationAge>
+  </PawnKindDef>
+
+  <!-- 요람 고기방패 -->
+  <PawnKindDef ParentName="CradleBasePawnKind">
+    <defName>CRD_ShieldSlave</defName>
+    <label>Rakkle ShieldSlaves</label>
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <minGenerationAge>17</minGenerationAge>
+    <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
+    <gearHealthRange>0.2~0.6</gearHealthRange>
+    <itemQuality>Poor</itemQuality>
+    <apparelMoney>0</apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+      <li>RS_CradleSlave</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>RS_Obedience_Terminal</li>
+    </apparelRequired>
+    <weaponMoney>0</weaponMoney>
+    <weaponTags>
+    </weaponTags>
+    <techHediffsMoney>0</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>1</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RSCivil_Child</li>
+          <li>CRDCaptured</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 로우티어 공격병 베이스-->
+  <PawnKindDef ParentName="CradleBasePawnKind" Name="CradleAttakerLowTierBase" Abstract="True">
+    <combatPower>70</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <gearHealthRange>0.4~1.1</gearHealthRange>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- 요람 상품-->
+  <PawnKindDef ParentName="CradleAttakerLowTierBase">
+    <defName>CRD_Goods</defName>
+    <label>cradle goods</label>
+    <combatPower>80</combatPower>
+    <apparelMoney>300~500</apparelMoney>
+    <weaponMoney>200~300</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDGoods_Adult</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 납치범 -->
+  <PawnKindDef ParentName="CradleAttakerLowTierBase">
+    <defName>CRD_Kidnapper</defName>
+    <label>cradle kidnapper</label>
+    <combatPower>80</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelMoney>400~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>250~345</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDAttacker</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 미드티어 공격병 베이스 -->
+  <PawnKindDef Name="CradleAttakerMidTierBase" Abstract="True">
+    <race>Rakkle</race>
+    <defaultFactionType>Cradle</defaultFactionType>
+    <isFighter>true</isFighter>
+    <minGenerationAge>20</minGenerationAge>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>65</maxGenerationAge>
+    <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>700~1200</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDAttacker</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="CradleAttakerMidTierBase" Name="CradleMidGunnerBase" Abstract="True">
+    <combatPower>150</combatPower>
+    <gearHealthRange>0.7~3.2</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>1000~1500</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>330~650</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <combatEnhancingDrugsChance>0.05</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- 요람 사격수 -->
+  <PawnKindDef ParentName="CradleMidGunnerBase">
+    <defName>CRD_Gunner</defName>
+    <label>cradle gunner</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="CradleMidGunnerBase">
+    <defName>CRD_HeavyGunner</defName>
+    <label>cradle heavy gunner</label>
+    <combatPower>230</combatPower>
+    <gearHealthRange>0.7~3.2</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>200~350</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>1200~1200</weaponMoney>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>GunSingleUse</li>
+    </weaponTags>
+  </PawnKindDef>
+
+
+  <!-- 요람 돌격병 -->
+  <PawnKindDef ParentName="CradleAttakerMidTierBase">
+    <defName>CRD_Slasher</defName>
+    <label>rakkle slasher</label>
+    <combatPower>250</combatPower>
+    <gearHealthRange>0.7~3.2</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+    <apparelMoney>300~1400</apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+
+  <!-- 요람 공병 -->
+  <PawnKindDef ParentName="CradleAttakerMidTierBase">
+    <defName>CRD_Sapper</defName>
+    <label>cradle sapper</label>
+    <combatPower>120</combatPower>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>400~700</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>500~500</weaponMoney>
+    <techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>500~500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <canBeSapper>true</canBeSapper>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+      <li>GrenadeEMP</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- 요람 엘리트 티어 공격병 베이스 -->
+
+  <PawnKindDef Abstract="True" Name="CradleAttakerEliteTierBase">
+    <race>Rakkle</race>
+    <defaultFactionType>Cradle</defaultFactionType>
+    <isFighter>true</isFighter>
+    <minGenerationAge>20</minGenerationAge>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <combatPower>300</combatPower>
+    <maxGenerationAge>45</maxGenerationAge>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>2500~3500</apparelMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>500~1400</weaponMoney>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <techHediffsMoney>1000~1200</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsChance>0.35</techHediffsChance>
+    <combatEnhancingDrugsChance>0.80</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <biocodeWeaponChance>0.3</biocodeWeaponChance>
+  </PawnKindDef>
+
+  <!-- 요람 지도자 -->
+  <PawnKindDef ParentName="CradleAttakerEliteTierBase">
+    <defName>CradleLeader</defName>
+    <label>cradle leader</label>
+    <factionLeader>true</factionLeader>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CradleLeader</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 정예 돌격병 -->
+
+  <PawnKindDef ParentName="CradleAttakerEliteTierBase">
+    <defName>CRD_EliteSlasher</defName>
+    <label>cradle elite slasher</label>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDElite</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+  <!-- 요람 정예 소총병 -->
+
+  <PawnKindDef ParentName="CradleAttakerEliteTierBase">
+    <defName>CRD_EliteGunner</defName>
+    <label>cradle elite gunner</label>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>CRDGoods_Child</li>
+          <li>CRDElite</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+
+  <!-- 상단 -->
+  <PawnKindDef Name="FRUBasePawnKind" Abstract="True">
+    <race>Rakkle</race>
+    <defaultFactionType>FRU</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>65</maxGenerationAge>
+  </PawnKindDef>
+
+  <!-- 상단 멤버-->
+  <PawnKindDef ParentName="FRUBasePawnKind">
+    <defName>RS_FRUT</defName>
+    <label>Rakkle Free wanderer</label>
+    <combatPower>65</combatPower>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <forceNormalGearQuality>false</forceNormalGearQuality>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <trader>true</trader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RSCivil_Adult</li>
+          <li>RSCivil_Child</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>RSColonist</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>RS_Thermostat</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>1500</max>
+    </weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>1200</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+        <li>
+          <thingDef>RS_BigSimpleRawMeatBall</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="FRUBasePawnKind">
+    <defName>RS_FRUG</defName>
+    <label>Rakkle Free wanderer</label>
+    <combatPower>65</combatPower>
+    <isFighter>true</isFighter>
+    <forceNormalGearQuality>false</forceNormalGearQuality>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <trader>false</trader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RSCivil_Adult</li>
+          <li>RSCivil_Child</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>RSColonist</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>RS_Thermostat</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>1200</max>
+    </weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>1200</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+        <li>
+          <thingDef>RS_BigSimpleRawMeatBall</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

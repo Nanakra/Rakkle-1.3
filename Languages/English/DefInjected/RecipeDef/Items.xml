@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <Making_BigSimpleRawMeatBall.description>Mince the meat and lump it together to make it easier to swallow.</Making_BigSimpleRawMeatBall.description>
+    <Making_BigSimpleRawMeatBall.jobString>Tying the meat together...</Making_BigSimpleRawMeatBall.jobString>
+
+    <Making_BigSimpleRawMeatBall_Bulk.description>Mince the meat and lump it together to make it easier to swallow. Make 4 at a time.</Making_BigSimpleRawMeatBall_Bulk.description>
+    <Making_BigSimpleRawMeatBall_Bulk.jobString>Tying the meat together...</Making_BigSimpleRawMeatBall_Bulk.jobString>
+
+    <Making_BigLavishRawMeatBall.description>Mince the meat and lump it together to make it easier to swallow. Remove the bad and bad parts.</Making_BigLavishRawMeatBall.description>
+    <Making_BigLavishRawMeatBall.jobString>Tying the meat together...</Making_BigLavishRawMeatBall.jobString>
+
+    <Making_BigLavishRawMeatBall_Bulk.description>Mince the meat and lump it together to make it easier to swallow. Remove the bad and bad parts. Make 4 at a time.</Making_BigLavishRawMeatBall_Bulk.description>
+    <Making_BigLavishRawMeatBall_Bulk.jobString>Tying the meat together...</Making_BigLavishRawMeatBall_Bulk.jobString>
+
+</LanguageData>

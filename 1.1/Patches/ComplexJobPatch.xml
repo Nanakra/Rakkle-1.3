@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[FSF] Complex Jobs</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/RecipeDef[defName = "Making_BigSimpleRawMeatBall"]</xpath>
+                    <value>
+                        <requiredGiverWorkType>FSFButcher</requiredGiverWorkType>
+                    </value>
+                </li>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/RecipeDef[defName = "Making_BigSimpleRawMeatBall_Bulk"]</xpath>
+                    <value>
+                        <requiredGiverWorkType>FSFButcher</requiredGiverWorkType>
+                    </value>
+                </li>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/RecipeDef[defName = "Making_BigLavishRawMeatBall"]</xpath>
+                    <value>
+                        <requiredGiverWorkType>FSFButcher</requiredGiverWorkType>
+                    </value>
+                </li>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/RecipeDef[defName = "Making_BigLavishRawMeatBall_Bulk"]</xpath>
+                    <value>
+                        <requiredGiverWorkType>FSFButcher</requiredGiverWorkType>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

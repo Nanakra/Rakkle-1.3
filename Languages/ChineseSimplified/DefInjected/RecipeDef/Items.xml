@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 경단 관련 -->
+  <Making_BigSimpleRawMeatBall.label>制作大而简单的生肉丸子</Making_BigSimpleRawMeatBall.label>
+  <Making_BigSimpleRawMeatBall.description>把肉剁碎，很容易吞掉。</Making_BigSimpleRawMeatBall.description>
+  <Making_BigSimpleRawMeatBall.jobString>正在揉肉…</Making_BigSimpleRawMeatBall.jobString>
+  <Making_BigSimpleRawMeatBall_Bulk.label>制作大而简单的生肉丸子</Making_BigSimpleRawMeatBall_Bulk.label>
+  <Making_BigSimpleRawMeatBall_Bulk.description>把肉剁碎，很容易吞掉。一次做4个</Making_BigSimpleRawMeatBall_Bulk.description>
+  <Making_BigSimpleRawMeatBall_Bulk.jobString>正在揉肉…</Making_BigSimpleRawMeatBall_Bulk.jobString>
+  <Making_BigLavishRawMeatBall.label>做一个大丰盛的生肉丸</Making_BigLavishRawMeatBall.label>
+  <Making_BigLavishRawMeatBall.description>把肉剁碎，很容易吞掉。去除质量不好的部分和不好吃的部分。</Making_BigLavishRawMeatBall.description>
+  <Making_BigLavishRawMeatBall.jobString>正在揉肉…</Making_BigLavishRawMeatBall.jobString>
+  <Making_BigLavishRawMeatBall_Bulk.label>大把大把的生肉丸子</Making_BigLavishRawMeatBall_Bulk.label>
+  <Making_BigLavishRawMeatBall_Bulk.description>把肉剁碎，很容易吞掉。去除质量不好的部分和不好吃的部分。一次做4个</Making_BigLavishRawMeatBall_Bulk.description>
+  <Making_BigLavishRawMeatBall_Bulk.jobString>正在揉肉…</Making_BigLavishRawMeatBall_Bulk.jobString>
+</LanguageData>

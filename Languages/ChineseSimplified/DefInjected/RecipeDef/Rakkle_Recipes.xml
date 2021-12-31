@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS_InstallWoodenTail.label>安装木尾</RS_InstallWoodenTail.label>
+  <RS_InstallWoodenTail.description>移植假木尾。</RS_InstallWoodenTail.description>
+  <RS_InstallWoodenTail.jobString>安装木尾。</RS_InstallWoodenTail.jobString>
+  <RS_RemoveWoodenTail.label>拆下木尾</RS_RemoveWoodenTail.label>
+  <RS_RemoveWoodenTail.description>去除假木尾。</RS_RemoveWoodenTail.description>
+  <RS_RemoveWoodenTail.jobString>移除木尾。</RS_RemoveWoodenTail.jobString>
+  <RS_InstallBionicTail.label>植入仿生尾巴</RS_InstallBionicTail.label>
+  <RS_InstallBionicTail.description>移植生物工程学的尾部。</RS_InstallBionicTail.description>
+  <RS_InstallBionicTail.jobString>安装仿生尾巴。</RS_InstallBionicTail.jobString>
+  <RS_RemoveBionicTail.label>移除仿生尾巴</RS_RemoveBionicTail.label>
+  <RS_RemoveBionicTail.description>去除生物工程学的尾巴。</RS_RemoveBionicTail.description>
+  <RS_RemoveBionicTail.jobString>移除仿生尾巴。</RS_RemoveBionicTail.jobString>
+  <RS_InstallBionicBellyscale.label>植入仿生鳞片</RS_InstallBionicBellyscale.label>
+  <RS_InstallBionicBellyscale.description>移植生物工程学层叠中心。</RS_InstallBionicBellyscale.description>
+  <RS_InstallBionicBellyscale.jobString>安装仿生鳞片。</RS_InstallBionicBellyscale.jobString>
+  <RS_RemoveBionicBellyscale.label>去除仿生鳞片</RS_RemoveBionicBellyscale.label>
+  <RS_RemoveBionicBellyscale.description>清除生物工学中心。</RS_RemoveBionicBellyscale.description>
+  <RS_RemoveBionicBellyscale.jobString>去除仿生鳞片</RS_RemoveBionicBellyscale.jobString>
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 경단 관련 -->
+  <RS_BigSimpleRawMeatBall.label>大肉丸子</RS_BigSimpleRawMeatBall.label>
+  <RS_BigSimpleRawMeatBall.description>为了容易吞咽而捏成的生肉糯米团。</RS_BigSimpleRawMeatBall.description>
+  <RS_BigLavishRawMeatBall.label>大丰盛生肉丸</RS_BigLavishRawMeatBall.label>
+  <RS_BigLavishRawMeatBall.description>为了容易吞咽而捏成的生肉糯米团。把不好吃的部分和质量不好的部分全部去掉后制作的</RS_BigLavishRawMeatBall.description>
+  <!-- 허물관련 -->
+  <RS_SnakeSkin.label>蛇皮。</RS_SnakeSkin.label>
+  <RS_SnakeSkin.description>美杜莎脱下的毛病。用作驱虫剂的材料。</RS_SnakeSkin.description>
+  <RS_helminthic.label>蠕虫</RS_helminthic.label>
+  <RS_helminthic.description>经美杜莎的蜕皮精制而成的驱虫剂。治疗内脏寄生虫和近寄生虫感染。没有预防效果。</RS_helminthic.description>
+</LanguageData>

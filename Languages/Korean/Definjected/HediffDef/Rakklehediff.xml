@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <Hediff_FoodpoisoningImmunity.label>식중독 면역</Hediff_FoodpoisoningImmunity.label>
+
+    <Hediff_VenomGlands.label>독 분비선</Hediff_VenomGlands.label>
+    <Hediff_VenomGlands.labelNoun>독 분비선</Hediff_VenomGlands.labelNoun>
+    <Hediff_VenomGlands.description>레이클 독 분비선.</Hediff_VenomGlands.description>
+    <Hediff_VenomGlands.comps.0.tools.label>독니</Hediff_VenomGlands.comps.0.tools.label>
+
+    <Hediff_RakkleShedPromoterA.label>탈피 촉진 물질</Hediff_RakkleShedPromoterA.label>
+
+    <RS_Shed.label>탈피</RS_Shed.label>
+    <RS_Shed.comps.1.discoverLetterLabel>{0}이 허물 벗을 준비를 하고 있습니다.</RS_Shed.comps.1.discoverLetterLabel>
+
+    <RS_Shed.stages.0.label>건조중</RS_Shed.stages.0.label>
+    <RS_Shed.stages.1.label>탈피중</RS_Shed.stages.1.label>
+    <RS_Shed.stages.2.label>탈피 임박</RS_Shed.stages.2.label>
+    <RS_Shed.stages.3.label>중기</RS_Shed.stages.3.label>
+    <RS_Shed.stages.4.label>초기</RS_Shed.stages.4.label>
+
+    <RS_helminthicHigh.label>기생충 치료</RS_helminthicHigh.label>
+    <RS_helminthicHigh.labelNoun>기생충 치료</RS_helminthicHigh.labelNoun>
+    
+    <RS_BionicTail.label>생체공학 레이클 하단꼬리</RS_BionicTail.label>
+    <RS_BionicTail.labelNoun>생체공학 레이클 하단꼬리</RS_BionicTail.labelNoun>
+    
+    <RS_BionicBellyscale.label>생체공학 상단복판</RS_BionicBellyscale.label>
+    <RS_BionicBellyscale.labelNoun>생체공학 상단복판</RS_BionicBellyscale.labelNoun>
+    
+    <RS_WoodenTail.label>가짜 나무 하단꼬리</RS_WoodenTail.label>
+    <RS_WoodenTail.labelNoun>가짜 나무 하단꼬리</RS_WoodenTail.labelNoun>
+
+
+    <RS_Thermostat.label>레이클 체온조절 단말</RS_Thermostat.label>
+    <RS_Thermostat.labelNoun>레이클 체온조절 단말</RS_Thermostat.labelNoun>
+    <RS_Thermostat.description>레이클 체온조절 단말. 몸에 부착하면 주변 환경을 감지하여 체온 유지를 돕습니다.</RS_Thermostat.description>
+
+    <RS_ObedienceTerminal.label>레이클 강제복종 단말</RS_ObedienceTerminal.label>
+    <RS_ObedienceTerminal.labelNoun>레이클 강제복종 단말</RS_ObedienceTerminal.labelNoun>
+    <RS_ObedienceTerminal.description>요람이 레이클을 통제하기 위해 부착한 단말. 레이클이 명령에 복종하지 않거나 나쁜 태도를 보이면 산 채로 뇌를 구워버릴 수 있다.</RS_ObedienceTerminal.description>
+
+</LanguageData>

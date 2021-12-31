@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AlienRace.BackstoryDef Name="RakkleBackStory" Abstract="True">
+    <bodyTypeMale>RakkleM</bodyTypeMale>
+    <bodyTypeFemale>RakkleF</bodyTypeFemale>
+  </AlienRace.BackstoryDef>
+
+  <!-- 유년기 -->
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_ColonyKid</defName>
+    <title>Rakkle Colony kid</title>
+    <titleShort>colony kid</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어느 자유 레이클 정착지에서 자란 어디에나 있는 평범한 꼬마입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Student</defName>
+    <title>Rakkle Student</title>
+    <titleShort>Student</titleShort>
+    <baseDescription>[PAWN_nameDef]는 학교에서 기본적인 교육을 받은 레이클입니다. [PAWN_pronoun]는 학교에서 친구도 사귀고, 변경계에서 살아남는 방법도 배웠습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_EmergencyFood</defName>
+    <title>Rakkle Emergency food</title>
+    <titleShort>Emergency food</titleShort>
+    <baseDescription>[PAWN_nameDef]는 식인 부족에게 납치당한 어린 레이클입니다. [PAWN_pronoun]는 다른 친구들이 하나 둘 사라지는 것을 지켜보며 무서운 나날을 보냈습니다. [PAWN_pronoun]는 몰래 파낸 땅굴을 통해 도망쳤지만, 그때의 상처는 아직 [PAWN_pronoun]에게 남아있습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_GiftedChild</defName>
+    <title>Rakkle Gifted child</title>
+    <titleShort>Gifted child</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어릴적부터 영재임을 인정받아 높은 수준의 교육을 받았습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Bully</defName>
+    <title>Rakkle Bully</title>
+    <titleShort>Bully</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어느 자유 레이클 정착지 아이들의 골목대장입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Tough</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Subject</defName>
+    <title>Rakkle Subject</title>
+    <titleShort>Subject</titleShort>
+    <baseDescription>[PAWN_nameDef]는 아주 어릴 때부터 어느 연구소의 실험체로 자랐습니다. 고된 실험을 당한 [PAWN_pronoun]는 결국 사람의 마음을 잃어버렸습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_HunterAssistant</defName>
+    <title>Rakkle Hunter assistant</title>
+    <titleShort>Hunter assistant</titleShort>
+    <baseDescription>[PAWN_nameDef]는 유명한 사냥꾼의 조수입니다. 아직 어리지만 다양한 사냥 기술을 배운 [PAWN_pronoun]는 혼자서도 충분히 사냥할 수 있는 능력을 가지게 되었습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_BookWorm</defName>
+    <title>Rakkle Book worm</title>
+    <titleShort>Book worm</titleShort>
+    <baseDescription>[PAWN_nameDef]는 책이 너무 좋은 책벌레입니다. [PAWN_pronoun]에게 세상은 너무 험하지만 책으로부터 얻은 지식은 [PAWN_pronoun]에게 큰 도움이 될 것입니다. 여담으로 [PAWN_pronoun]는 '책벌레'보단 '책뱀'이라고 불리길 원합니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_ClothingStoreKid</defName>
+    <title>Rakkle Clothing store kid</title>
+    <titleShort>Clothing store kid</titleShort>
+    <baseDescription>[PAWN_nameDef]는 재봉사의 자녀입니다. 다정했던 어머니의 어깨너머로 배운 지식은 어느 정도 [PAWN_pronoun]에게 도움 될 것입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+
+    <defName>Rakkle_ConstructionWorker</defName>
+    <title>Rakkle Construction worker</title>
+    <titleShort>Construction worker</titleShort>
+    <baseDescription>[PAWN_nameDef]는 공사장에서 허드렛일을 담당하는 어린 레이클입니다. 보통 어릴 때부터 이런 험한 일을 하지는 않지만, [PAWN_pronoun]에게는 해야 하는 이유가 있었겠지요.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Orphan</defName>
+    <title>Rakkle Orphan</title>
+    <titleShort>Orphan</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어느 정착지 외곽 폐허에서 살던 고아입니다. [PAWN_pronoun]도 왜 자신에게 부모가 없는지 알지 못합니다. 당장 중요한 것은 살아남는 것입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+
+    <defName>Rakkle_ImmatureChild</defName>
+    <title>Rakkle Immature child</title>
+    <titleShort>Immature child</titleShort>
+    <baseDescription>[PAWN_nameDef]는 철없이 자란 꼬마입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_PrecociousChild</defName>
+    <title>Trading Precocious child</title>
+    <titleShort>Precocious child</titleShort>
+    <baseDescription>[PAWN_nameDef]는 항상 어른들에게 애늙은이라고 불렸습니다. 어른스러운 [PAWN_pronoun]는 자신이 정착지에 도움이 되길 바랍니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_CuriousChild</defName>
+    <title>Rakkle Curious child</title>
+    <titleShort>Curious child</titleShort>
+    <baseDescription>[PAWN_nameDef]는 호기심이 굉장히 많은 꼬마입니다. 호기심 때문에 문제도 많이 일으키지만 이 호기심이 도움이 되는 일도 많을 것입니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_WildSnake</defName>
+    <title>Rakkle Wild snake</title>
+    <titleShort>Wild snake</titleShort>
+    <baseDescription>[PAWN_nameDef]는 야생에서 혼자 자란 레이클입니다. 야생에서 발견되어 정착지에 합류하게 된 [PAWN_pronoun]에겐 정착지의 생활이 어색하기만 합니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Cleaning</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_SandboxGreat</defName>
+    <title>Rakkle Sandbox great</title>
+    <titleShort>Sandbox great</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 모래성 짓기 최강자입니다. 정착지 내의 그 누구도 [PAWN_pronoun]의 모래성을 따라올 자는 없습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_PeePoo</defName>
+    <title>Rakkle Pee Poo</title>
+    <titleShort>Pee Poo</titleShort>
+    <baseDescription>[PAWN_nameDef]는 몸에 관심이 많은 아이입니다. 아침마다 축축하게 젖어있는 이불 때문에 부모님께 많이 혼났지만 매번 오줌을 싼 게 아니라고 변명합니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_AbandonedYoungSlave</defName>
+    <title>Rakkle Abandoned young slave</title>
+    <titleShort>Abandoned young slave</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어느 인간 정착지의 노예였습니다. 그 정착지는 요람 소속이 아니었지만 [PAWN_pronoun]를 노예 삼아 괴롭히길 좋아했습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-7</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_IdolTrainee</defName>
+    <title>Rakkle Idol trainee</title>
+    <titleShort>Idol trainee</titleShort>
+    <baseDescription>[PAWN_nameDef]는 언젠가 아이돌이 되고 싶은 어린아이입니다. 부모님이 들려준 항성계 아이돌에 대한 이야기는 [PAWN_pronoun]를 매료시키기에 충분했습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_LittleGlutton</defName>
+    <title>Rakkle Little glutton</title>
+    <titleShort>Little glutton</titleShort>
+    <baseDescription>[PAWN_nameDef]는 고기가 너무 좋은 먹보입니다. [PAWN_pronoun]는 고기를 더 맛있게 먹기 위해 요리를 공부했습니다. 그래봐야 뭉친 생고기일 뿐 이지만요.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Gourmand</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_PlantLover</defName>
+    <title>Rakkle Plant lover</title>
+    <titleShort>Plant lover</titleShort>
+    <baseDescription>[PAWN_nameDef]는 조금 유별난 레이클입니다. 레이클은 육식동물이기 때문에 그들은 식물에 관심이 없습니다. 하지만 [PAWN_pronoun]는 나무나 인간들이 먹는 작물에 관심이 많습니다.</baseDescription>
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>RSCivil_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+
+
+  <!-- 요람 어린 상품 -->
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CRD_YoungGoods</defName>
+    <title>Cradle Young Goods</title>
+    <titleShort>Young Goods</titleShort>
+    <baseDescription>[PAWN_nameDef]은 요람이 관리하는 상품 중 하나입니다. [PAWN_pronoun]은 아직 어리지만 머지않아 인간들에게 봉사할 날을 기다리고 있습니다.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>CRDGoods_Child</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CRD_CradleLeaderChild</defName>
+    <title>Cradle Cradle Leader Child</title>
+    <titleShort>Cradle leader child</titleShort>
+    <baseDescription>[PAWN_nameDef]는 요람 지도층의 자녀입니다. [PAWN_pronoun]는 상품이 아닌 지도층의 일원으로 자랄 것입니다.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <spawnCategories>
+      <li>CradleLeader</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 성년기 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+
+  <!-- 플레이어 -->
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Blacksmith</defName>
+    <title>Rakkle Blacksmith</title>
+    <titleShort>Blacksmith</titleShort>
+    <baseDescription>[PAWN_nameDef]는 대장장이입니다. 레이클은 다른 종족들에게 우호적이지만, 변경계에서 살아남기 위해서는 병기 역시 제작해야만 했습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Butcher</defName>
+    <title>Rakkle Butcher</title>
+    <titleShort>Butcher</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지 정육점의 종사자입니다. 레이클에게 요리는 큰 의미가 없지만 도축작업은 가장 중요한 일 중 하나입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Seamstress</defName>
+    <title>Rakkle Seamstress</title>
+    <titleShort>Seamstress</titleShort>
+    <baseDescription>[PAWN_nameDef]는 옷 가게를 운영했습니다. [PAWN_pronoun]가 만드는 옷은 호평 일색이었습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Rancher</defName>
+    <title>Rakkle Rancher</title>
+    <titleShort>Rancher</titleShort>
+    <baseDescription>[PAWN_nameDef]는 대형 목장에서 가축을 기르던 레이클입니다. 육식동물인 레이클에게 가축은 굉장히 중요한 자원입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Guard</defName>
+    <title>Rakkle Guard</title>
+    <titleShort>Guard</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 치안을 지키던 레이클입니다. [PAWN_pronoun]는 요람으로부터 정착민들을 지키기 위해 최선을 다할 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Tough</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Hunter</defName>
+    <title>Rakkle Hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 고기 공급을 담당하는 사냥꾼입니다. 작물을 먹지 못하는 레이클에게 사냥꾼이란 굉장히 중요하고, 없어서는 안 될 직업입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Architect</defName>
+    <title>Rakkle Architect</title>
+    <titleShort>Architect</titleShort>
+    <baseDescription>[PAWN_nameDef]는 건축기술을 공부해 정착지의 수리와 건설 확장에 힘쓰는 레이클입니다. 요람으로부터의 공격을 버텨내기 위해선 더 견고한 요새를 건설해야 합니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Avenger</defName>
+    <title>Rakkle Avenger</title>
+    <titleShort>Avenger</titleShort>
+    <baseDescription>[PAWN_nameDef]는 과거 요람에게 습격당해 가족을 잃은 레이클입니다. [PAWN_pronoun]는 그들에게 복수하기 위해 계속 훈련하고 있습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Bloodlust</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_CannibalSnake</defName>
+    <title>Rakkle Cannibal snake</title>
+    <titleShort>Cannibal snake</titleShort>
+    <baseDescription>레이클은 보통 이종족에게 우호적이고 식인을 하지 않지만, 예외도 있습니다. [PAWN_nameDef]은 작은 식인 레이클부족의 일원이었습니다. 부족에서 나온 [PAWN_pronoun]는 여전히 인육의 맛을 잊지 못했습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Cannibal</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Farmer</defName>
+    <title>Rakkle Farmer</title>
+    <titleShort>Farmer</titleShort>
+    <baseDescription>과거 레이클 정착지들은 농사를 짓지 않았습니다. 하지만 현재는 이종족과의 교류를 위해 농부 레이클도 다수 생겨났습니다. [PAWN_nameDef]는 다른 레이클들보다는 농사에 재능을 가졌습니다. 이종족 입장에선 아직 미숙하지만요.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Diplomat</defName>
+    <title>Rakkle Diplomat</title>
+    <titleShort>Diplomat</titleShort>
+    <baseDescription>[PAWN_nameDef]는 레이클 정착지 주변의 우호적인 정착지에 찾아가 교류하는 일을 합니다. 이종족과 교류해야 하는 레이클은 지속적으로 외교관을 육성하고 있습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Lazy</defName>
+    <title>Rakkle Lazy</title>
+    <titleShort>Lazy</titleShort>
+    <baseDescription>[PAWN_nameDef]는 엄청난 게으름뱅이입니다. [PAWN_pronoun]는 일하는 걸 제일 싫어합니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>-2</degree>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Idol</defName>
+    <title>Rakkle Idol</title>
+    <titleShort>Idol</titleShort>
+    <baseDescription>[PAWN_nameDef]는 행성 내 유명한 아이돌입니다. 변경계에서는 아이돌에 대한 수요가 높진 않지만, 그래도 좋아해 주는 팬들이 있기에 힘낼 수 있습니다. [PAWN_pronoun]는 언젠가 번화계 아이돌이 되는 날을 꿈꾸고 있습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Model</defName>
+    <title>Rakkle Model</title>
+    <titleShort>Model</titleShort>
+    <baseDescription>[PAWN_nameDef]는 아름다운 미모와 몸매를 가진 모델 레이클입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Teacher</defName>
+    <title>Rakkle Teacher</title>
+    <titleShort>Teacher</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 아이들을 책임지는 선생님입니다. 온화한 성격의 [PAWN_pronoun]는 아이들에게 인기 있는 선생님입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Kind</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Professor</defName>
+    <title>Rakkle Professor</title>
+    <titleShort>Professor</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지 내의 연구를 담당하고 있는 교수입니다. 다른 정착민들을 교육하는 역할도 맡고 있지만, 혼자서 연구하는 게 더 마음이 편하다고 합니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>GreatMemory</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Miner</defName>
+    <title>Rakkle Miner</title>
+    <titleShort>Miner</titleShort>
+    <baseDescription>[PAWN_nameDef]는 광부입니다. 원시 레이클들은 땅을 파고 들어가 생활하는 습성이 있었다고 합니다. [PAWN_pronoun]은 요람이 말살해버린 원시 레이클을 생각하며 채굴을 한다고 합니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Merchant</defName>
+    <title>Rakkle Merchant</title>
+    <titleShort>Merchant</titleShort>
+    <baseDescription>[PAWN_nameDef]는 돈이 너무 좋습니다. [PAWN_pronoun]는 자나 깨나 어떻게 더 비싸게 팔고 싸게 살 수 있을까 고민하고 있습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Gunner</defName>
+    <title>Rakkle Gunner</title>
+    <titleShort>Gunner</titleShort>
+    <baseDescription>[PAWN_nameDef]는 사격에 재능이 있습니다. [PAWN_pronoun]가 말하길 어릴 적부터 새총을 가지고 놀던 것이 도움 됐다고 합니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Storyteller</defName>
+    <title>Rakkle Storyteller</title>
+    <titleShort>Storyteller</titleShort>
+    <baseDescription>[PAWN_nameDef]는 어린이들에게 재밌는 이야기를 해주는 레이클입니다. 정착지에 TV가 있다면 모를까, 그렇지 않은 정착지에선 아이들에게 인기 만점입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Fool</defName>
+    <title>Rakkle Fool</title>
+    <titleShort>Fool</titleShort>
+    <baseDescription>[PAWN_nameDef]는 바보 멍청이입니다. 딱히 스스로 뭔가 생각하지도 않고 흘러가는 대로 삽니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Doctor</defName>
+    <title>Rakkle Doctor</title>
+    <titleShort>Doctor</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 의사입니다. [PAWN_pronoun]는 잦은 습격으로 부상자가 늘어나는 것을 보고 의사가 되기로 결심했습니다. 그리고 이제는 정착지의 많은 이들이 [PAWN_pronoun]를 의지하고 있습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_OrphanageDirector</defName>
+    <title>Rakkle Orphanage director</title>
+    <titleShort>Orphanage director</titleShort>
+    <baseDescription>[PAWN_nameDef]는 정착지의 고아를 돌보는 고아원의 원장입니다. [PAWN_pronoun]는 아이들이 더는 고통을 겪지 않길 바랍니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_Artist</defName>
+    <title>Rakkle Artist</title>
+    <titleShort>Artist</titleShort>
+    <baseDescription>[PAWN_nameDef]는 예술적 재능이 있는 레이클입니다. 다른 정착민들이 자신의 예술품을 봐주는 것에 보람을 느끼는 [PAWN_pronoun]는 정착민들을 위해 계속해서 예술품을 만들 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSCivil_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>Rakkle_EscapedGoods</defName>
+    <title>Rakkle Escaped goods</title>
+    <titleShort>Escaped goods</titleShort>
+    <baseDescription>[PAWN_nameDef]은 요람에서 도망친 상품들 중 하나입니다. 정신적으로 무감각했던 [PAWN_pronoun]는 세뇌에 걸리지 않았고, 팔려간 친구들이 어떤 일을 당하는지 목격했습니다. [PAWN_pronoun]가 팔려가는 날, 우연히 요람 정착지에 메카노이드가 떨어졌고 [PAWN_pronoun]는 그 틈을 타 도망쳤습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>2</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>1</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <spawnCategories>
+      <li>RSFugitive</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <!-- 요람 성년기 -->
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Toy</defName>
+    <title>Cradle Toy</title>
+    <titleShort>Cradle Toy</titleShort>
+    <baseDescription>[PAWN_nameDef]은 인간들의 장난감으로 길러진 상품입니다. [PAWN_pronoun]은 인간님들을 즐겁게 하는 다양한 일들을 교육받았습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Maid</defName>
+    <title>Cradle Maid</title>
+    <titleShort>Cradle Maid</titleShort>
+    <baseDescription>[PAWN_nameDef]은 인간 상류층을 위한 메이드로 길러진 상품입니다. [PAWN_pronoun]은 집안일을 교육받았습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Livestock</defName>
+    <title>Cradle Livestock</title>
+    <titleShort>Cradle Livestock</titleShort>
+    <baseDescription>[PAWN_nameDef]은 인간들을 위한 여러 가지 축산물을 생산하기 위해 길러진 상품입니다. [PAWN_pronoun]는 용도에 따라 다른 곳에 팔릴 것입니다. 어쩌면 팔리는 즉시 도축 당할지도 모르죠.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Workman</defName>
+    <title>Cradle Workman</title>
+    <titleShort>Cradle Workman</titleShort>
+    <baseDescription>[PAWN_nameDef]은 인간 사회에 투입되어 다양한 업무를 담당하기 위해 길러진 상품입니다. [PAWN_pronoun]는 인간님들을 위해 온 힘을 다할 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Slave</defName>
+    <title>Cradle Slave</title>
+    <titleShort>Cradle Slave</titleShort>
+    <baseDescription>[PAWN_nameDef]는 단순한 노예 상품입니다. 이 상품은 다른 상품들에 비해 질이 떨어지는 상품입니다. [PAWN_pronoun]는 소모품처럼 사용될 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_FightingSnake</defName>
+    <title>Cradle Fighting Snake</title>
+    <titleShort>Cradle Fighting Snake</titleShort>
+    <baseDescription>[PAWN_nameDef]은 투기뱀 대회의 싸움꾼 상품입니다. 레이클은 공격성이 높지 않지만 [PAWN_pronoun]와 같은 투기뱀들은 어릴 적부터 강제로 싸움하도록 조교 당했습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Tough</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Breeder</defName>
+    <title>Cradle Breeder</title>
+    <titleShort>Cradle Breeder</titleShort>
+    <baseDescription>[PAWN_nameDef]은 다른 레이클을 낳기 위해 길러진 상품입니다. 이 상품은 특수 프리미엄 고객들에게만 판매됩니다. [PAWN_pronoun]는 쓸모가 없어질 때까지 주인님을 위해 계속 낳고 낳을 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+    <maleCommonality>0</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_serf</defName>
+    <title>Cradle serf</title>
+    <titleShort>Cradle serf</titleShort>
+    <baseDescription>[PAWN_nameDef]은 밭에서 일 할 수 있도록 교육받은 상품입니다. 레이클은 육식동물이지만, [PAWN_pronoun]는 자신의 주인님을 위해서라면 열심히 밭을 가꿀 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDGoods_Adult</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Attacker</defName>
+    <title>Cradle attacker</title>
+    <titleShort>Cradle attacker</titleShort>
+    <baseDescription>[PAWN_nameDef]은 요람에서 관리하던 상품용 레이클이었습니다. [PAWN_pronoun]의 전투적 재능을 알아본 요람은 [PAWN_pronoun]를 전투원으로 육성했습니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDAttacker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Elite</defName>
+    <title>Cradle elite attacker</title>
+    <titleShort>Cradle elite attacker</titleShort>
+    <baseDescription>[PAWN_nameDef]은 어릴 때부터 전문적으로 교육받은 엘리트입니다. [PAWN_pronoun]는 요람 정착지를 위해 모든 적을 말살 할 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDElite</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Captured</defName>
+    <title>Cradle captured</title>
+    <titleShort>Cradle captured</titleShort>
+    <baseDescription>[PAWN_nameDef]은 어느 정착지의 자유 레이클이었습니다. 어느 날 [PAWN_pronoun]의 정착지에 요람 레이클 회수 부대가 들이닥쳤고, 저항하던 레이클들을 제외한 모든 정착민이 끌려갔습니다. [PAWN_pronoun]는 이제 요람의 고기 방패 그 이상도 그 이하도 아닙니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CRDCaptured</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="RakkleBackStory">
+    <defName>CDR_Leader</defName>
+    <title>Cradle leader</title>
+    <titleShort>Cradle leader</titleShort>
+    <baseDescription>[PAWN_nameDef]은 요람 정착지의 지도자입니다. [PAWN_pronoun]는 어릴 적부터 전문적인 교육과 훈련을 받았습니다. [PAWN_pronoun]은 이 편안한 생활을 자신의 자녀가 계속 이어갈 수 있도록 할 것입니다.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+    <bioAgeRange>
+      <min>15</min>
+      <max>80</max>
+    </bioAgeRange>
+    <forcedHediffs>
+      <li>RS_ObedienceTerminal</li>
+    </forcedHediffs>
+    <spawnCategories>
+      <li>CradleLeader</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+
+</Defs>

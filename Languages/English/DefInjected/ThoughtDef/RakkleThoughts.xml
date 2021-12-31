@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <AteSimpleMeal.stages.0.description>It was a simple meal.</AteSimpleMeal.stages.0.description>
+
+    <RS_AteSimpleMeal.stages.0.description>It's... it doesn't have vegetables in it, is it?</RS_AteSimpleMeal.stages.0.description>
+
+    <RS_AteFineMeal.stages.0.description>Fine meal? Ugh...! It's a vegetable!</RS_AteFineMeal.stages.0.description>
+
+    <RS_AteLavishMeal.stages.0.description>LA.. VISH... It's... gross.</RS_AteLavishMeal.stages.0.description>
+
+    <RS_AteSimpleRawFood.stage.0.description>MEAT!</RS_AteSimpleRawFood.stage.0.description>
+
+    <RS_AteLavishRawFood.stage.0.description>MEAT MEAT! MEAT MEAT!</RS_AteLavishRawFood.stage.0.description>
+
+</LanguageData>

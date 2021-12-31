@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <RS_BionicTail.description>Bionic snake tails cause a slight increase in movement speed.</RS_BionicTail.description>
+
+    <RS_BionicBellyscale.description>Bionic belly scale causes a slight increase in movement speed.</RS_BionicBellyscale.description>
+
+    <RS_WoodenTail.description>Fake tail mounted on the severed part of the tail. It's cumbersome but better than nothing.</RS_WoodenTail.description>
+    
+    <Hediff_RakkleShedPromoterA.description>If you see this phrase, it's a bug.</Hediff_RakkleShedPromoterA.description>
+
+    <RS_Shed.description>rakkles periodically shedding for growth.</RS_Shed.description>
+    <RS_Shed.comps.1.discoverLetterText>{0}'s "shedding" is not far off!</RS_Shed.comps.1.discoverLetterText>
+
+    <RS_helminthicHigh.description>Treatment MuscleParasites, GutWorms</RS_helminthicHigh.description>
+
+
+</LanguageData>

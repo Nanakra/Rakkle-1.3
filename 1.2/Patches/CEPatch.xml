@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- 
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+            <li>Rakkle the rattle snake Race mod</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Rakkle"]</xpath>
+                    <value>
+                        <alienRace>
+                            <raceRestriction>
+                                <whiteApparelList>
+                                  <li>Apparel_TacVest</li>
+                                  <li>Apparel_Backpack</li>
+                                  <li>Apparel_TribalBackpack</li>
+                                  <li>Apparel_Bascinet</li>
+                                  <li>Apparel_GasMask</li>
+                                  <li>Apparel_ImprovGasMask</li>
+                                  <li>Apparel_MeleeShield</li>
+                                  <li>Apparel_BallisticShield</li>
+                                  <li>Apparel_CompositeVest</li>
+                                  <li>Apparel_TacArmor</li>
+                                 </whiteApparelList>
+                            </raceRestriction>
+                        </alienRace>
+
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>  
+-->
+
+</Patch>

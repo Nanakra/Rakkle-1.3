@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartDef>
+		<defName>RS_Fangs</defName>
+		<label>jaw</label>
+		<hitPoints>5</hitPoints>
+		<skinCovered>false</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<solid>true</solid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RS_VenomGlands</defName>
+		<label>jaw</label>
+		<hitPoints>5</hitPoints>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>false</beautyRelated>
+		<solid>false</solid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RS_UpperTail</defName>
+		<label>tail</label>
+		<hitPoints>60</hitPoints>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RS_LowerTail</defName>
+		<label>tail</label>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RS_Rattle</defName>
+		<label>tail</label>
+		<hitPoints>15</hitPoints>
+		<frostbiteVulnerability>2</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+		  <li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Upper_Tailbone</defName>
+		<label>tail</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>false</skinCovered>
+		<beautyRelated>false</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>Lower_Tailbone</defName>
+		<label>tail</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>false</skinCovered>
+		<beautyRelated>false</beautyRelated>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>Lower_BellyScale</defName>
+		<label>tail</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>Upper_BellyScale</defName>
+		<label>tail</label>
+		<hitPoints>20</hitPoints>
+		<skinCovered>false</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartGroupDef>
+		<defName>tail</defName>
+		<label>tail</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>BellyScales</defName>
+		<label>tail</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>VenomGlands</defName>
+		<label>venom glands</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+</Defs>

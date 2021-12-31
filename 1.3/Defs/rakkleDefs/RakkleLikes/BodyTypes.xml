@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Defs>
+  <BodyTypeDef>
+    <defName>RakkleF</defName>
+    <label>Rakkle Female</label>
+    <headOffset>(0.07, 0.59)</headOffset>
+    <bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleF</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+  <BodyTypeDef>
+    <defName>RakkleM</defName>
+    <label>Rakkle Male</label>
+    <headOffset>(0.07, 0.59)</headOffset>
+    <bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleM</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+</Defs>
+-->
+
+<Defs>
+<BodyTypeDef>
+<defName>RakkleF</defName>
+<label>Rakkle Female</label>
+<headOffset>(0.07, 0.59)</headOffset>
+<bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleF</bodyNakedGraphicPath>
+<bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+<woundAnchors>
+<li>
+<rotation>South</rotation>
+<group>Torso</group>
+<offset>(0,0,-0.06)</offset>
+<range>0.2</range>
+<debugColor>(1,0,0,1)</debugColor>
+</li>
+<li>
+<rotation>South</rotation>
+<group>FullHead</group>
+<offset>(0, 0, 0.3)</offset>
+<range>0.18</range>
+<layer>Head</layer>
+<debugColor>(0,1,1,1)</debugColor>
+</li>
+<li>
+<rotation>West</rotation>
+<group>FullHead</group>
+<offset>(-0.17, 0, 0.32)</offset>
+<range>0.2</range>
+<layer>Head</layer>
+<debugColor>(0,1,1,1)</debugColor>
+</li>
+<li>
+<rotation>West</rotation>
+<group>Torso</group>
+<offset>(0,0,-0.13)</offset>
+<range>0.2</range>
+<debugColor>(1,0,0,1)</debugColor>
+</li>
+</woundAnchors>
+
+</BodyTypeDef>
+<BodyTypeDef>
+<defName>RakkleM</defName>
+<label>Rakkle Male</label>
+<headOffset>(0.07, 0.59)</headOffset>
+<bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleM</bodyNakedGraphicPath>
+<bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+<woundAnchors>
+<li>
+<rotation>South</rotation>
+<group>Torso</group>
+<offset>(0,0,-0.06)</offset>
+<range>0.2</range>
+<debugColor>(1,0,0,1)</debugColor>
+</li>
+<li>
+<rotation>South</rotation>
+<group>FullHead</group>
+<offset>(0, 0, 0.3)</offset>
+<range>0.18</range>
+<layer>Head</layer>
+<debugColor>(0,1,1,1)</debugColor>
+</li>
+<li>
+<rotation>West</rotation>
+<group>FullHead</group>
+<offset>(-0.17, 0, 0.32)</offset>
+<range>0.2</range>
+<layer>Head</layer>
+<debugColor>(0,1,1,1)</debugColor>
+</li>
+<li>
+<rotation>West</rotation>
+<group>Torso</group>
+<offset>(0,0,-0.13)</offset>
+<range>0.2</range>
+<debugColor>(1,0,0,1)</debugColor>
+</li>
+</woundAnchors>
+
+</BodyTypeDef>
+</Defs>

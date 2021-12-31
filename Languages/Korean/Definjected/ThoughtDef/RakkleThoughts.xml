@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <AteSimpleMeal.stages.0.label>간단한 식사 섭취</AteSimpleMeal.stages.0.label>
+    <RS_AteSimpleMeal.stages.0.label>간단한 식사 섭취</RS_AteSimpleMeal.stages.0.label>
+    <RS_AteFineMeal.stages.0.label>좋은 식사 섭취</RS_AteFineMeal.stages.0.label>
+    <RS_AteLavishMeal.stages.0.label>호화로운 식사 섭취</RS_AteLavishMeal.stages.0.label>
+
+    <RS_AteSimpleRawFood.stages.0.label>간단한 날고기 섭취</RS_AteSimpleRawFood.stages.0.label>
+    <RS_AteLavishRawFood.stages.0.label>고급 날고기 섭취</RS_AteLavishRawFood.stages.0.label>
+</LanguageData>

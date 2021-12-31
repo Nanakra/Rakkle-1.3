@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BodyPartGroupDef>
+		<defName>tail</defName>
+		<label>tail</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>BellyScales</defName>
+		<label>tail</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>VenomGlands</defName>
+		<label>venom glands</label>
+		<listOrder>30</listOrder>
+	</BodyPartGroupDef>
+
+
+
+</Defs>

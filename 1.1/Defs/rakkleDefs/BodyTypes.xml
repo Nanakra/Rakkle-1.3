@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <BodyTypeDef>
+    <defName>RakkleF</defName>
+    <label>Rakkle Female</label>
+    <headOffset>(0.07, 0.59)</headOffset>
+    <bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleF</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+  <BodyTypeDef>
+    <defName>RakkleM</defName>
+    <label>Rakkle Male</label>
+    <headOffset>(0.07, 0.59)</headOffset>
+    <bodyNakedGraphicPath>Rakkles\Bodies\Naked_RakkleM</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+</Defs>

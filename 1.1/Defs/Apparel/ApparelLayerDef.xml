@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ApparelLayerDef>
+        <defName>RSUnder</defName>
+        <label>Underwear</label>
+        <drawOrder>-5</drawOrder>
+    </ApparelLayerDef>
+</Defs>
