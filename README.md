@@ -26,6 +26,8 @@ Why should they have the same body size?
 See the Size Comparision.png for an example.
 Size is compared to the following: Titan Boa, Kurin, Rakkle, Orassan.
 
+If you want that Titan Boa, that is from the Megafauna mod here: https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938
+
 Only changes were made for the 1.3 version of this mod.
 
 I make no promises that any other version will work as I have not altered or tested them.
