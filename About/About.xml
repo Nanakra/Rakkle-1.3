@@ -18,6 +18,11 @@
       <displayName>MoHAR framework</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>bs.hpr</packageId>
+      <displayName>HD Pawn Rendering</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2538746878</steamWorkshopUrl>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
