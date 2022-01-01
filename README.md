@@ -40,7 +40,7 @@ If you don't do this critical step, RimWorld will break, and Randy will feed you
 
 1. Download and open the zip.
 2. Extract the zip to your SteamLibrary\steamapps\common\RimWorld\Mods\ folder.
-3. In the mods folder you should see a folder called Rakkle 1.3
+3. In the mods folder you should see a folder called Rakkle 1.3-master.
 4. Activate the mod in your mod manager of choice (Use RimPy!!!) and start your game / play!
 
 Happy playing!
