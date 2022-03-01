@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef Name="RS_PawnBase" Abstract="True">
+	<ThingDef ParentName="BasePawn" Name="RS_PawnBase" Abstract="True">
 		<thingClass>Pawn</thingClass>
 		<category>Pawn</category>
 		<selectable>true</selectable>
@@ -14,6 +14,7 @@
 		<statBases>
 			<Mass>55</Mass>
 		</statBases>
+	<!--
 		<inspectorTabs>
 			<li>ITab_Pawn_Health</li>
 			<li>ITab_Pawn_Needs</li>
@@ -26,6 +27,7 @@
 			<li>ITab_Pawn_Gear</li>
 			<li>ITab_Pawn_Log</li>
 		</inspectorTabs>
+	-->
 		<comps>
 			<li>
 				<compClass>CompAttachBase</compClass>
