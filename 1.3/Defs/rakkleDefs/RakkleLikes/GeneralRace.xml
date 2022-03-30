@@ -55,6 +55,8 @@
 
         <!--=파트제네레이터==========================================================================================-->
         <alienPartGenerator>
+          <borderScale>2</borderScale>
+		      <atlasScale>2</atlasScale>
           <aliencrowntypes>            <!-- 헤드 -->
             <li>Average_1</li>
             <li>Average_2</li>
